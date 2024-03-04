@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a PhD candidate in Computer Science and Engineering at [Hong Kong University of Science and Technology](https://hkust.edu.hk/), Professor [Tristan Braud](https://braudt.people.ust.hk/index.html). I received my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). My research interests lie in the field of 3D Computer Vision, AR/VR and reconstruction.
+I'm a PhD candidate in Computer Science and Engineering at [Hong Kong University of Science and Technology](https://hkust.edu.hk/), supervised by Professor [Tristan Braud](https://braudt.people.ust.hk/index.html). I received my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). My research interests lie in the field of 3D Computer Vision, AR/VR and reconstruction.
 
 
 
@@ -33,7 +33,7 @@ I'm a PhD candidate in Computer Science and Engineering at [Hong Kong University
 [360Loc: A Dataset and Benchmark for Omnidirectional Visual Localization with
 Cross-device Queries](https://arxiv.org/pdf/2311.17389.pdf)
 
-Huajian Huang*, **Changkun Liu***, Yipeng Zhu, Hui Cheng, Tristan Braud, and Sai-Kit Yeung
+Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and Sai-Kit Yeung
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
