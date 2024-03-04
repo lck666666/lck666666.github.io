@@ -57,7 +57,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 - *2017.09 - 2021.6*, Bachelor of Engineering in Electronic Science and Technology, Shanghai Jiao Tong University. 
 
 
-# 💻 Internships
+# 💻 Experience
 - *2020.06 - 2021.05*, Intel Asia-Pacific R&D Ltd., Shanghai, China.
 
 # 🎖 Honors and Awards
