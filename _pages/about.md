@@ -17,14 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am pursuing PhD in the Hong Kong University of Science and Technology, advised by Professor Tristan Braud. I have passion in SLAM (simultaneous localization and mapping) and reconstruction. 
-Recently I seek to explore omnidirectional vision for various tasks of computer vision and robotics.
+I'm a PhD student in Computer Science and Engineering at [Hong Kong University of Science and Technology](https://hkust.edu.hk/), Professor [Tristan Braud](https://braudt.people.ust.hk/index.html). I received my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). My research interests lie in the field of 3D Computer Vision, AR/VR and reconstruction.
 
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.01*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📝 Publications 
 
