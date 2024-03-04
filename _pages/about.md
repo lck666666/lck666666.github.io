@@ -36,7 +36,7 @@ Cross-device Queries](https://arxiv.org/pdf/2311.17389.pdf)
 Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and Sai-Kit Yeung (CVPR2024)
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- 360Loc is the first dataset and benchmark that explores the challenge of cross-device visual positioning, involving 360$\degree$ reference frames, and query frames from pinhole, ultra-wide FoV fisheye, and 360$\degree$ cameras. 
+- 360Loc is the first dataset and benchmark that explores the challenge of cross-device visual positioning, involving 360° reference frames, and query frames from pinhole, ultra-wide FoV fisheye, and 360° cameras. 
 </div>
 </div>
 
