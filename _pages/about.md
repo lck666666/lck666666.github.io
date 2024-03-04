@@ -17,13 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a PhD student in Computer Science and Engineering at [Hong Kong University of Science and Technology](https://hkust.edu.hk/), Professor [Tristan Braud](https://braudt.people.ust.hk/index.html). I received my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). My research interests lie in the field of 3D Computer Vision, AR/VR and reconstruction.
+I'm a PhD candidate in Computer Science and Engineering at [Hong Kong University of Science and Technology](https://hkust.edu.hk/), Professor [Tristan Braud](https://braudt.people.ust.hk/index.html). I received my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). My research interests lie in the field of 3D Computer Vision, AR/VR and reconstruction.
 
 
 
 # 🔥 News
-- *2024.01*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2024.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.02*: &nbsp;🎉🎉 One paper is accepted in CVPR 2024.
+- *2024.01*: &nbsp;🎉🎉 One paper is accepted in ICRA 2024.
 
 # 📝 Publications 
 
@@ -51,17 +51,19 @@ Huajian Huang*, **Changkun Liu***, Yipeng Zhu, Hui Cheng, Tristan Braud, and Sai
 </div>
 </div>
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021.09 - now*, Ph.D. in Computer Science and Engineering, The Hong Kong University of Science and Technology.
+- *2017.09 - 2021.6*, Bachelor of Engineering in Electronic Science and Technology, Shanghai Jiao Tong University. 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2020.06 - 2021.05*, Intel Asia-Pacific R&D Ltd., Shanghai, China.
+
+# 🎖 Honors and Awards
+- *2024.2* Overseas Research Award in HKUST
+- *2021-now* Postgraduate Studentship in HKUST
+- *2021* Outstanding Graduate of Shanghai Jiao Tong University (Top 20%)
+- *2020* Second-Class Scholarship Awarded by SCSK, Kabuskiki Kaisha (Top 4%)
+- *2020* Class B Scholarship of SJTU
+- *2018, 2019* Class C Scholarship of SJTU
