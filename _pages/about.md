@@ -58,6 +58,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 
 
 # 💻 Experience
+- *2019.07 - 2019.08*, University of Washington, Seattle, US.
 - *2020.06 - 2021.05*, Intel Asia-Pacific R&D Ltd., Shanghai, China.
 
 # 🎖 Honors and Awards
