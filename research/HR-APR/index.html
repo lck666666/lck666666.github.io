@@ -56,15 +56,15 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://scholar.google.com/citations?user=25npC_YAAAAJ" target="_blank">Changkun Liu</a><sup>*</sup>,</span>
+                <a href="https://scholar.google.com/citations?user=25npC_YAAAAJ" target="_blank">Changkun Liu</a>,</span>
                 <span class="author-block">
-                  <a href="https://chenusc11.github.io/" target="_blank">Shuai Chen</a><sup>*</sup>,</span>
+                  <a href="https://chenusc11.github.io/" target="_blank">Shuai Chen</a>,</span>
                   <span class="author-block">
-                    <a href="https://chenusc11.github.io/" target="_blank">Shuai Chen</a><sup>*</sup>,</span>
+                    <a href="https://chenusc11.github.io/" target="_blank">Shuai Chen</a>,</span>
                     <span class="author-block">
-                      <a href="https://chenusc11.github.io/" target="_blank">Shuai Chen</a><sup>*</sup>,</span>
+                      <a href="https://chenusc11.github.io/" target="_blank">Shuai Chen</a>,</span>
                       <span class="author-block">
-                        <a href="https://chenusc11.github.io/" target="_blank">Shuai Chen</a><sup>*</sup>,</span>
+                        <a href="https://chenusc11.github.io/" target="_blank">Shuai Chen</a>,</span>
                   <span class="author-block">
                     <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yukun Zhao</a>
                   </span>
@@ -72,14 +72,13 @@
 
                   <div class="is-size-5 publication-authors">
                     <span class="author-block">HKUST<br>ICRA 2024</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://arxiv.org/pdf/2402.14371.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -154,7 +153,14 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Absolute Pose Regressors (APRs) directly estimate camera poses from monocular images, but their accuracy is unstable for different queries. Uncertainty-aware APRs provide
+            uncertainty information on the estimated pose, alleviating the impact of these unreliable predictions. However, existing uncertainty modelling techniques are often coupled with a
+            specific APR architecture, resulting in suboptimal performance compared to state-of-the-art (SOTA) APR methods. This work
+            introduces a novel APR-agnostic framework, HR-APR, that formulates uncertainty estimation as cosine similarity estimation between the query and database features. It does not rely
+            on or affect APR network architecture, which is flexible and computationally efficient. In addition, we take advantage of the
+            uncertainty for pose refinement to enhance the performance of APR. The extensive experiments demonstrate the effectiveness
+            of our framework, reducing 27.4% and 15.2% of computational overhead on the 7Scenes and Cambridge Landmarks datasets
+            while maintaining the SOTA accuracy in single-image APRs.
           </p>
         </div>
       </div>
