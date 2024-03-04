@@ -22,8 +22,8 @@ I'm a PhD candidate in Computer Science and Engineering at [Hong Kong University
 
 
 # 🔥 News
-- *2024.02*: &nbsp;🎉🎉 One paper is accepted in CVPR 2024.
-- *2024.01*: &nbsp;🎉🎉 One paper is accepted in ICRA 2024.
+- *2024.02*: &nbsp;🎉🎉 One paper is accepted in Conference on Computer Vision and Pattern Recognition (CVPR) 2024. Thanks to all coauthors!
+- *2024.01*: &nbsp;🎉🎉 One paper is accepted in  International Conference on Robotics and Automation (ICRA) 2024. Thanks to all coauthors!
 
 # 📝 Publications 
 
