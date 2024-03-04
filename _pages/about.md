@@ -27,7 +27,7 @@ I'm a PhD candidate in Computer Science and Engineering at [Hong Kong University
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/360pipeline.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [360Loc: A Dataset and Benchmark for Omnidirectional Visual Localization with
