@@ -62,7 +62,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 - *2020.06 - 2021.05*, Intel Asia-Pacific R&D Ltd., Shanghai, China.
 
 # 🎖 Honors and Awards
-- *2024.2* Overseas Research Award in HKUST
+- *2024* Overseas Research Award in HKUST
 - *2021-now* Postgraduate Studentship in HKUST
 - *2021* Outstanding Graduate of Shanghai Jiao Tong University (Top 20%)
 - *2020* Second-Class Scholarship Awarded by SCSK, Kabuskiki Kaisha (Top 4%)
