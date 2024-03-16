@@ -48,6 +48,10 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 
 [**Project**](https://lck666666.github.io/research/HR-APR/index.html) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - This work introduces a novel APR-agnostic framework, HR-APR, that formulates uncertainty estimation as cosine similarity estimation between the query and database features. 
+
+- [MobileARLoc: On-device Robust Absolute Localisation for Pervasive Markerless Mobile AR](https://arxiv.org/abs/2401.11511),**Changkun Liu\***, Yukun Zhao\*, Tristan Braud. **PerCom 2024 Workshop**
+
+- [VR PreM+: An Immersive Pre-learning Branching Visualization System for Museum Tours](https://dl.acm.org/doi/abs/10.1145/3629606.3629643), **Changkun Liu\***, Yukun Zhao\*, Tristan Braud. **Chinese CHI 2023**
 </div>
 </div>
 
