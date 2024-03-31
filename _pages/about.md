@@ -51,6 +51,8 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 </div>
 </div>
 
+- [AIR-HLoc: Adaptive Image Retrieval for Efficient Visual Localisation](https://arxiv.org/abs/2403.18281), **Changkun Liu**, Huajian Huang, Zhengyang Ma, Tristan Braud. **In submission**
+
 - [MARViN: Mobile AR Dataset with Visual-Inertial Data](https://lck666666.github.io/research/MARViN/index.html), **Changkun Liu\***, Yukun Zhao\*, Tristan Braud. **IEEE VR 2024 Workshop**
 
 - [MobileARLoc: On-device Robust Absolute Localisation for Pervasive Markerless Mobile AR](https://arxiv.org/abs/2401.11511), **Changkun Liu\***, Yukun Zhao\*, Tristan Braud. **PerCom 2024 Workshop**
