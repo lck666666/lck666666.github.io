@@ -17,11 +17,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a PhD candidate in Computer Science and Engineering at [Hong Kong University of Science and Technology](https://hkust.edu.hk/), supervised by Professor [Tristan Braud](https://braudt.people.ust.hk/index.html). I received my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). My research interests lie in the field of 3D Computer Vision, visual localization, AR/VR and reconstruction.
+I'm a PhD candidate in Computer Science and Engineering at [Hong Kong University of Science and Technology](https://hkust.edu.hk/), supervised by Professor [Tristan Braud](https://braudt.people.ust.hk/index.html). I am fortunate to visit University of Oxford advised by Prof. [Victor Prisacariu](https://www.robots.ox.ac.uk/~victor/). I received my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). My research interests lie in the field of 3D Computer Vision, visual localization, AR/VR and reconstruction.
 
 
 
 # 🔥 News
+- *2024.04*: &nbsp;🎉🎉 Start visiting in [The Active Vision Laboratory](https://www.robots.ox.ac.uk/~lav/), [University of Oxford](https://www.ox.ac.uk/)!
 - *2024.02*: &nbsp;🎉🎉 One paper is accepted in Conference on Computer Vision and Pattern Recognition (CVPR) 2024. Thanks to all coauthors!
 - *2024.01*: &nbsp;🎉🎉 One paper is accepted in  International Conference on Robotics and Automation (ICRA) 2024. Thanks to all coauthors!
 
@@ -67,6 +68,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 
 
 # 💻 Experience
+- *2024.04 - now*, Visiting Graduate Student in Computer Science & Engineering at University of Oxford, UK.
 - *2019.07 - 2019.08*, University of Washington, Seattle, US.
 - *2020.06 - 2021.05*, Intel Asia-Pacific R&D Ltd., Shanghai, China.
 
