@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Changkun Liu"
 description              : "PhD candidate, cliudg AT connect DOT ust DOT hk"
-repository               : lck666666/lck666666.github.io"
+repository               : "lck666666/lck666666.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -43,7 +43,7 @@ author:
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : "www.linkedin.com/in/lck666"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
