@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a PhD candidate in Computer Science and Engineering at [Hong Kong University of Science and Technology](https://hkust.edu.hk/), supervised by Prof. [Tristan Braud](https://braudt.people.ust.hk/index.html). I am fortunate to visit [University of Oxford](https://www.ox.ac.uk/) advised by Prof. [Victor Prisacariu](https://www.robots.ox.ac.uk/~victor/). I received my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). My research interests lie in the field of 3D Computer Vision, visual localization, AR/VR and reconstruction.
+I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), supervised by Prof. [Tristan Braud](https://braudt.people.ust.hk/index.html). I am fortunate to visit the [University of Oxford](https://www.ox.ac.uk/) advised by Prof. [Victor Prisacariu](https://www.robots.ox.ac.uk/~victor/). I received my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). My research interests lie in the field of 3D Computer Vision, visual localization, AR/VR and, reconstruction.
 
 
 
