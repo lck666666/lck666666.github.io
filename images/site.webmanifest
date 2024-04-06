@@ -3,14 +3,14 @@
     "short_name": "",
     "icons": [
        {
-          "src": "/changkunliu_pic.png",
+          "src": "/changkunliu_pic.jpg",
           "sizes": "192x192",
-          "type": "image/png"
+          "type": "image/jpg"
        },
        {
-        "src": "/changkunliu_pic.png",
+        "src": "/changkunliu_pic.jpg",
         "sizes": "512x512",
-        "type": "image/png"
+        "type": "image/jpg"
         }
     ],
     "theme_color": "#FFFFFF",
