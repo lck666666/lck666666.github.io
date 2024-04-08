@@ -69,8 +69,8 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 
 # 💻 Experience
 - *2024.04 - now*, Visiting Graduate Student at University of Oxford, Oxford, UK.
-- *2019.07 - 2019.08*, University of Washington, Seattle, US.
 - *2020.06 - 2021.05*, Intel Asia-Pacific R&D Ltd., Shanghai, China.
+- *2019.07 - 2019.08*, University of Washington, Seattle, US.
 
 # 🎖 Honors and Awards
 - *2024* Overseas Research Award in HKUST
