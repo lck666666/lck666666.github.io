@@ -43,7 +43,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2024</div><img src='images/pipeline3.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[HR-APR: APR-agnostic Framework with Uncertainty Estimation and Hierarchical Refinement for Camera Relocalisation](https://arxiv.org/pdf/2402.14371.pdf)
+[HR-APR: APR-agnostic Framework with Uncertainty Estimation and Hierarchical Refinement for Camera Relocalisation](https://arxiv.org/abs/2402.14371)
 
 **Changkun Liu**, Shuai Chen, Yukun Zhao, Huajian Huang, Victor Prisacariu, and Tristan Braud (ICRA 2024)
 
@@ -68,7 +68,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 
 
 # 💻 Experience
-- *2024.04 - now*, Visiting Graduate Student at the University of Oxford, Oxford, UK.
+- *2024.04 - now*, Visiting Research Student at the University of Oxford, Oxford, UK.
 - *2020.06 - 2021.05*, Intel Asia-Pacific R&D Ltd., Shanghai, China.
 - *2019.07 - 2019.08*, University of Washington, Seattle, US.
 
