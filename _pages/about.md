@@ -64,7 +64,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 
 # 📖 Educations
 - *2021.09 - now*, Ph.D. in Computer Science and Engineering, The Hong Kong University of Science and Technology.
-- *2017.09 - 2021.6*, Bachelor of Engineering in Electronic Science and Technology, Shanghai Jiao Tong University. 
+- *2017.09 - 2021.06*, Bachelor of Engineering in Electronic Science and Technology, Shanghai Jiao Tong University. 
 
 
 # 💻 Experience
