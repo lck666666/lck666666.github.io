@@ -27,7 +27,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 - *2024.01*: &nbsp;🎉🎉 One paper is accepted in  International Conference on Robotics and Automation (ICRA) 2024. Thanks to all coauthors!
 
 # 📝 Publications 
-
+\* equal contribution
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/360pipeline.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
