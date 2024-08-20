@@ -26,7 +26,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 - *2024.02*: &nbsp;🎉🎉 One paper is accepted in Conference on Computer Vision and Pattern Recognition (CVPR) 2024. Thanks to all coauthors!
 - *2024.01*: &nbsp;🎉🎉 One paper is accepted in  International Conference on Robotics and Automation (ICRA) 2024. Thanks to all coauthors!
 
-# 📝 Publications 
+# 📝 Publications and Preprints
 \* equal contribution
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/360pipeline.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -52,13 +52,13 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 </div>
 </div>
 
-- [AIR-HLoc: Adaptive Image Retrieval for Efficient Visual Localisation](https://arxiv.org/abs/2403.18281), **Changkun Liu**, Huajian Huang, Zhengyang Ma, Tristan Braud. **In submission**
-
 - [MARViN: Mobile AR Dataset with Visual-Inertial Data](https://lck666666.github.io/research/MARViN/index.html), **Changkun Liu\***, Yukun Zhao\*, Tristan Braud. **IEEE VR 2024 Workshop**
 
 - [MobileARLoc: On-device Robust Absolute Localisation for Pervasive Markerless Mobile AR](https://arxiv.org/abs/2401.11511), **Changkun Liu\***, Yukun Zhao\*, Tristan Braud. **PerCom 2024 Workshop**
 
 - [VR PreM+: An Immersive Pre-learning Branching Visualization System for Museum Tours](https://dl.acm.org/doi/abs/10.1145/3629606.3629643), Ze Gao, Xiang Li, **Changkun Liu**, Xian Wang, Anqi Wang, Liang Yang, Yuyang Wang, Pan Hui, Tristan Braud. **Chinese CHI 2023**
+
+- [AIR-HLoc: Adaptive Image Retrieval for Efficient Visual Localisation](https://arxiv.org/abs/2403.18281), **Changkun Liu**, Huajian Huang, Zhengyang Ma, Tristan Braud. **Preprint**
 
 
 
