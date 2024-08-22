@@ -33,7 +33,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
     <div>
       <div class="badge">CVPR 2024</div>
       <video width="100%" controls>
-        <source src=".research/gsloc/video_refine_crop.mp4" type="video/mp4">
+        <source src="../research/gsloc/video_refine_crop.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </div>
