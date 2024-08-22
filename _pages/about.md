@@ -31,6 +31,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='../research/gsloc/Method.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [GSLoc: Efficient Camera Pose Refinement via 3D Gaussian Splatting](https://arxiv.org/abs/2408.11085)
+
 **Changkun Liu**, Shuai Chen, Yash Bhalgat, Siyan Hu, Zirui Wang, Ming Cheng, Victor Adrian Prisacariu, Tristan Braud. (arXiv 2024)
 
 [**Project**](https://gsloc.active.vision/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
@@ -42,6 +43,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 <div class='paper-box-text' markdown="1">
 [360Loc: A Dataset and Benchmark for Omnidirectional Visual Localization with
 Cross-device Queries](https://arxiv.org/pdf/2311.17389.pdf)
+
 Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and Sai-Kit Yeung (CVPR 2024)
 
 [**Project**](https://huajianup.github.io/research/360Loc/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
