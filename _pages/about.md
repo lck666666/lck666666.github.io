@@ -16,6 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
+<video width="100%" height="auto" controls>
 
 I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), supervised by Prof. [Tristan Braud](https://braudt.people.ust.hk/index.html). I am fortunate to visit the [Active Vision Laboratory](https://www.robots.ox.ac.uk/~lav/), [University of Oxford](https://www.ox.ac.uk/) advised by Prof. [Victor Prisacariu](https://www.robots.ox.ac.uk/~victor/). I received my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). Research Focus: Improve the user's Augmented Reality (AR) and Virtual Reality (VR) experience and explore the application of AR and VR technology in visualization.
 
@@ -31,8 +32,9 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">CVPR 2024</div>
-      <video width="100%" controls>
+      <div class="badge">arXiv</div>
+      <div style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+        <video style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" controls>
         <source src="../research/gsloc/video_refine_crop.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
