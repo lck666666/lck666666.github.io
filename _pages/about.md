@@ -33,7 +33,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 
 [GSLoc: Efficient Camera Pose Refinement via 3D Gaussian Splatting](https://arxiv.org/abs/2408.11085)
 
-**Changkun Liu**, Shuai Chen, Yash Bhalgat, Siyan Hu, Zirui Wang, Ming Cheng, Victor Adrian Prisacariu, Tristan Braud. (arXiv)
+**Changkun Liu**, Shuai Chen, Yash Bhalgat, Siyan Hu, Zirui Wang, Ming Cheng, Victor Adrian Prisacariu, Tristan Braud. (arXiv 2024)
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/360pipeline.png' alt="sym" width="100%"></div></div>
@@ -66,7 +66,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 
 - [VR PreM+: An Immersive Pre-learning Branching Visualization System for Museum Tours](https://dl.acm.org/doi/abs/10.1145/3629606.3629643), Ze Gao, Xiang Li, **Changkun Liu**, Xian Wang, Anqi Wang, Liang Yang, Yuyang Wang, Pan Hui, Tristan Braud. **Chinese CHI 2023**
 
-- [AIR-HLoc: Adaptive Image Retrieval for Efficient Visual Localisation](https://arxiv.org/abs/2403.18281), **Changkun Liu**, Huajian Huang, Zhengyang Ma, Tristan Braud. **arXiv**
+- [AIR-HLoc: Adaptive Image Retrieval for Efficient Visual Localisation](https://arxiv.org/abs/2403.18281), **Changkun Liu**, Huajian Huang, Zhengyang Ma, Tristan Braud. **arXiv 2024**
 
 
 
