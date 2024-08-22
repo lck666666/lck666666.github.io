@@ -29,18 +29,8 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 
 # 📝 Publications and Preprints
 \* equal contribution
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">arXiv</div>
-      <div style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
-        <video style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" controls>
-        <source src="../research/gsloc/video_refine_crop.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='../research/gsloc/Method.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 [GSLoc: Efficient Camera Pose Refinement via 3D Gaussian Splatting](https://arxiv.org/abs/2408.11085)
 
