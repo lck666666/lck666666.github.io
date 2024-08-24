@@ -35,7 +35,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 **Changkun Liu**, Shuai Chen, Yash Bhalgat, Siyan Hu, Zirui Wang, Ming Cheng, Victor Adrian Prisacariu, Tristan Braud. (arXiv 2024)
 
 [**Project**](https://gsloc.active.vision/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- GSLoc is a camera pose refinement framework.
+- GSLoc is a camera pose refinement framework that leverages 3D Gaussian Splatting for scene representation, combined with the 3D foundation model, MASt3R.
 </div>
 </div>
 
