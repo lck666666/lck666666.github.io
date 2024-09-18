@@ -62,13 +62,13 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 </div>
 </div>
 
+- [AIR-HLoc: Adaptive Retrieved Images Selection for Efficient Visual Localisation](https://arxiv.org/abs/2403.18281), **Changkun Liu**,  Jianhao Jiao, Huajian Huang, Zhengyang Ma, Dimitrios Kanoulas, Tristan Braud. **arXiv 2024**
+
 - [MARViN: Mobile AR Dataset with Visual-Inertial Data](https://lck666666.github.io/research/MARViN/index.html), **Changkun Liu\***, Yukun Zhao\*, Tristan Braud. **IEEE VR 2024 Workshop**
 
 - [MobileARLoc: On-device Robust Absolute Localisation for Pervasive Markerless Mobile AR](https://arxiv.org/abs/2401.11511), **Changkun Liu\***, Yukun Zhao\*, Tristan Braud. **PerCom 2024 Workshop**
 
 - [VR PreM+: An Immersive Pre-learning Branching Visualization System for Museum Tours](https://dl.acm.org/doi/abs/10.1145/3629606.3629643), Ze Gao, Xiang Li, **Changkun Liu**, Xian Wang, Anqi Wang, Liang Yang, Yuyang Wang, Pan Hui, Tristan Braud. **Chinese CHI 2023**
-
-- [AIR-HLoc: Adaptive Image Retrieval for Efficient Visual Localisation](https://arxiv.org/abs/2403.18281), **Changkun Liu**, Huajian Huang, Zhengyang Ma, Tristan Braud. **arXiv 2024**
 
 
 
