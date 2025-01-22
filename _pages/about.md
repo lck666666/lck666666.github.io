@@ -29,7 +29,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 
 # 📝 Publications and Preprints
 \* equal contribution
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='../research/gsloc/Method_gsloc.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='../research/gsloc/Method_gsloc.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [GSLoc: Efficient Camera Pose Refinement via 3D Gaussian Splatting](https://arxiv.org/abs/2408.11085)
 
