@@ -22,6 +22,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 
 
 # 🔥 News
+- *2025.01*: &nbsp;🎉🎉 One paper is accepted in International Conference on Learning Representations (ICLR) 2025. Thanks to all coauthors!
 - *2024.04*: &nbsp;🎉🎉 Start visiting in [the Active Vision Laboratory](https://www.robots.ox.ac.uk/~lav/), [University of Oxford](https://www.ox.ac.uk/)! Thanks [Shuai Chen](https://chenusc11.github.io/) for showing me around the University and Lab!
 - *2024.02*: &nbsp;🎉🎉 One paper is accepted in Conference on Computer Vision and Pattern Recognition (CVPR) 2024. Thanks to all coauthors!
 - *2024.01*: &nbsp;🎉🎉 One paper is accepted in  International Conference on Robotics and Automation (ICRA) 2024. Thanks to all coauthors!
@@ -32,7 +33,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 <div class='paper-box-text' markdown="1">
 [GSLoc: Efficient Camera Pose Refinement via 3D Gaussian Splatting](https://arxiv.org/abs/2408.11085)
 
-**Changkun Liu**, Shuai Chen, Yash Bhalgat, Siyan Hu, Ming Cheng, Zirui Wang, Victor Adrian Prisacariu, Tristan Braud. (arXiv 2024)
+**Changkun Liu**, Shuai Chen, Yash Bhalgat, Siyan Hu, Ming Cheng, Zirui Wang, Victor Adrian Prisacariu, Tristan Braud. (ICLR 2025)
 
 [**Project**](https://gsloc.active.vision/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - GSLoc is a camera pose refinement framework that leverages 3D Gaussian Splatting for scene representation, combined with the 3D foundation model, MASt3R.
@@ -80,6 +81,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 
 
 # 💻 Experience
+- *2025.01 - now*, Research Intern, Ant Research, Ant Group.
 - *2024.04 - 2024.08*, Visiting Research Student at the University of Oxford, Oxford, UK.
 - *2020.06 - 2021.05*, Intel Asia-Pacific R&D Ltd., Shanghai, China.
 - *2019.07 - 2019.08*, University of Washington, Seattle, US.
@@ -93,4 +95,4 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 - *2018, 2019* Class C Scholarship of SJTU
 
 # Academic Service
-- Reviewer: ICRA
+- Reviewer: ICRA, ICLR
