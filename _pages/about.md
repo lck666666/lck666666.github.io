@@ -22,6 +22,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 
 
 # 🔥 News
+- *2024.01*: &nbsp;🎉🎉 Two papers are accepted in  International Conference on Robotics and Automation (ICRA) 2025. Thanks to all coauthors!
 - *2025.01*: &nbsp;🎉🎉 One paper is accepted in International Conference on Learning Representations (ICLR) 2025. Thanks to all coauthors!
 - *2024.04*: &nbsp;🎉🎉 Start visiting in [the Active Vision Laboratory](https://www.robots.ox.ac.uk/~lav/), [University of Oxford](https://www.ox.ac.uk/)! Thanks [Shuai Chen](https://chenusc11.github.io/) for showing me around the University and Lab!
 - *2024.02*: &nbsp;🎉🎉 One paper is accepted in Conference on Computer Vision and Pattern Recognition (CVPR) 2024. Thanks to all coauthors!
@@ -63,9 +64,9 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 </div>
 </div>
 
-- [LiteVLoc: Map-Lite Visual Localization for Image Goal Navigation](https://arxiv.org/abs/2410.04419), Jianhao Jiao, Jinhao He, **Changkun Liu**, Sebastian Aegidius, Xiangcheng Hu, Tristan Braud, Dimitrios Kanoulas. **arXiv 2024**
+- [LiteVLoc: Map-Lite Visual Localization for Image Goal Navigation](https://arxiv.org/abs/2410.04419), Jianhao Jiao, Jinhao He, **Changkun Liu**, Sebastian Aegidius, Xiangcheng Hu, Tristan Braud, Dimitrios Kanoulas. **ICRA 2025**
 
-- [AIR-HLoc: Adaptive Retrieved Images Selection for Efficient Visual Localisation](https://arxiv.org/abs/2403.18281), **Changkun Liu**,  Jianhao Jiao, Huajian Huang, Zhengyang Ma, Dimitrios Kanoulas, Tristan Braud. **arXiv 2024**
+- [AIR-HLoc: Adaptive Retrieved Images Selection for Efficient Visual Localisation](https://arxiv.org/abs/2403.18281), **Changkun Liu**,  Jianhao Jiao, Huajian Huang, Zhengyang Ma, Dimitrios Kanoulas, Tristan Braud. **ICRA 2025**
 
 - [MARViN: Mobile AR Dataset with Visual-Inertial Data](https://lck666666.github.io/research/MARViN/index.html), **Changkun Liu\***, Yukun Zhao\*, Tristan Braud. **IEEE VR 2024 Workshop**
 
