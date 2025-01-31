@@ -42,7 +42,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='../research/litevloc/2024_litevloc.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='../research/litevloc/2024_litevloc.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [LiteVLoc: Map-Lite Visual Localization for Image Goal Navigation](https://arxiv.org/abs/2410.04419)
 
