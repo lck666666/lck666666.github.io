@@ -136,7 +136,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 <body>
 
     <div class="map-container">
-        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=dfUoSc6uP1vWgs2fZpQ0rXTSEA-jke2-e2F1P09mahk"></script>
+        <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=dfUoSc6uP1vWgs2fZpQ0rXTSEA-jke2-e2F1P09mahk&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
     </div>
 
 </body>
