@@ -31,18 +31,37 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 # 📝 Publications and Preprints
 \* equal contribution
 
-- [LiteVLoc: Map-Lite Visual Localization for Image Goal Navigation](https://arxiv.org/abs/2410.04419), Jianhao Jiao, Jinhao He, **Changkun Liu**, Sebastian Aegidius, Xiangcheng Hu, Tristan Braud, Dimitrios Kanoulas. **ICRA 2025**
-
-- [AIR-HLoc: Adaptive Retrieved Images Selection for Efficient Visual Localisation](https://arxiv.org/abs/2403.18281), **Changkun Liu**,  Jianhao Jiao, Huajian Huang, Zhengyang Ma, Dimitrios Kanoulas, Tristan Braud. **ICRA 2025**
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='../research/gsloc/Method_gsloc.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [GSLoc: Efficient Camera Pose Refinement via 3D Gaussian Splatting](https://arxiv.org/abs/2408.11085)
 
-**Changkun Liu**, Shuai Chen, Yash Bhalgat, Siyan Hu, Ming Cheng, Zirui Wang, Victor Adrian Prisacariu, Tristan Braud. (ICLR 2025)
+**Changkun Liu**, Shuai Chen, Yash Bhalgat, Siyan Hu, Ming Cheng, Zirui Wang, Victor Adrian Prisacariu, Tristan Braud. (**ICLR 2025**)
 
 [**Project**](https://gsloc.active.vision/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - GSLoc is a camera pose refinement framework that leverages 3D Gaussian Splatting for scene representation, combined with the 3D foundation model, MASt3R.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='../research/litevloc/2024_litevloc.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[LiteVLoc: Map-Lite Visual Localization for Image Goal Navigation](https://arxiv.org/abs/2410.04419)
+
+Jianhao Jiao, Jinhao He, **Changkun Liu**, Sebastian Aegidius, Xiangcheng Hu, Tristan Braud, Dimitrios Kanoulas. (**ICRA 2025**)
+
+[**Project**](https://gsloc.active.vision/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- GSLoc is a camera pose refinement framework that leverages 3D Gaussian Splatting for scene representation, combined with the 3D foundation model, MASt3R.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='../research/air_hloc/teaser_hj.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[AIR-HLoc: Adaptive Retrieved Images Selection for Efficient Visual Localisation](https://arxiv.org/abs/2403.18281)
+
+**Changkun Liu**,  Jianhao Jiao, Huajian Huang, Zhengyang Ma, Dimitrios Kanoulas, Tristan Braud. (**ICRA 2025**)
+
+[**Paper**](https://arxiv.org/abs/2403.18281) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- We propose an adaptive strategy that adjusts k based on the similarity between the query's global descriptor and those in the database, effectively mitigating the feature-matching bottleneck in hierarchical localisation pipelines.
 </div>
 </div>
 
@@ -51,7 +70,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 [360Loc: A Dataset and Benchmark for Omnidirectional Visual Localization with
 Cross-device Queries](https://arxiv.org/pdf/2311.17389.pdf)
 
-Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and Sai-Kit Yeung (CVPR 2024)
+Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and Sai-Kit Yeung (**CVPR 2024**)
 
 [**Project**](https://huajianup.github.io/research/360Loc/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - 360Loc is the first dataset and benchmark that explores the challenge of cross-device visual positioning, involving 360° reference frames, and query frames from pinhole, ultra-wide FoV fisheye, and 360° cameras. 
@@ -62,7 +81,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 <div class='paper-box-text' markdown="1">
 [HR-APR: APR-agnostic Framework with Uncertainty Estimation and Hierarchical Refinement for Camera Relocalisation](https://arxiv.org/abs/2402.14371)
 
-**Changkun Liu**, Shuai Chen, Yukun Zhao, Huajian Huang, Victor Prisacariu, and Tristan Braud (ICRA 2024)
+**Changkun Liu**, Shuai Chen, Yukun Zhao, Huajian Huang, Victor Prisacariu, and Tristan Braud (**ICRA 2024**)
 
 [**Project**](https://lck666666.github.io/research/HR-APR/index.html) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - This work introduces a novel APR-agnostic framework, HR-APR, that formulates uncertainty estimation as cosine similarity estimation between the query and database features. 
