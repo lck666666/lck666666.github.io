@@ -118,4 +118,28 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 # Academic Service
 - Reviewer: ICRA, ICLR
 
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=dfUoSc6uP1vWgs2fZpQ0rXTSEA-jke2-e2F1P09mahk"></script>
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClustrMaps Globe</title>
+    <style>
+        .map-container {
+            width: 30vw; /* 让地图宽度占屏幕 30% */
+            margin: 0 auto; /* 水平居中 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="map-container">
+        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=dfUoSc6uP1vWgs2fZpQ0rXTSEA-jke2-e2F1P09mahk"></script>
+    </div>
+
+</body>
+</html>
