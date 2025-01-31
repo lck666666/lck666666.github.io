@@ -118,8 +118,6 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 # Academic Service
 - Reviewer: ICRA, ICLR
 
-
-<!DOCTYPE html>
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
@@ -127,7 +125,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
     <title>ClustrMaps Globe</title>
     <style>
         .map-container {
-            width: 30vw; /* 让地图宽度占屏幕 30% */
+            width: 10vw; /* 让地图宽度占屏幕 30% */
             margin: 0 auto; /* 水平居中 */
             display: flex;
             justify-content: center;
