@@ -49,7 +49,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 Jianhao Jiao, Jinhao He, **Changkun Liu**, Sebastian Aegidius, Xiangcheng Hu, Tristan Braud, Dimitrios Kanoulas. (**ICRA 2025**)
 
 [**Project**](https://rpl-cs-ucl.github.io/LiteVLoc) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- GSLoc is a camera pose refinement framework that leverages 3D Gaussian Splatting for scene representation, combined with the 3D foundation model, MASt3R.
+- This paper introduces LiteVLoc, a hierarchical visual localization framework using lightweight topometric maps for efficient, precise camera pose estimation, validated through experiments in simulated and real-world scenarios.
 </div>
 </div>
 
