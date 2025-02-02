@@ -125,7 +125,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
     <title>ClustrMaps Globe</title>
     <style>
         .map-container {
-            width: 20vw; /* 让地图宽度占屏幕 20% */
+            width: 25vw; /* 让地图宽度占屏幕 20% */
             margin: 0 auto; /* 水平居中 */
             display: flex;
             justify-content: center;
