@@ -33,12 +33,12 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='../research/gsloc/Method_gsloc.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[GSLoc: Efficient Camera Pose Refinement via 3D Gaussian Splatting](https://arxiv.org/abs/2408.11085)
+[GS-CPR: Efficient Camera Pose Refinement via 3D Gaussian Splatting](https://arxiv.org/abs/2408.11085)
 
 **Changkun Liu**, Shuai Chen, Yash Bhalgat, Siyan Hu, Ming Cheng, Zirui Wang, Victor Adrian Prisacariu, Tristan Braud. (**ICLR 2025**)
 
 [**Project**](https://gsloc.active.vision/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- GSLoc is a camera pose refinement framework that leverages 3D Gaussian Splatting for scene representation, combined with the 3D foundation model, MASt3R.
+- GS-CPR is a camera pose refinement framework that leverages 3D Gaussian Splatting for scene representation, combined with the 3D foundation model, MASt3R.
 </div>
 </div>
 
