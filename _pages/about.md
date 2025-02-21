@@ -19,7 +19,7 @@ redirect_from:
 
 I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), supervised by Prof. [Tristan Braud](https://braudt.people.ust.hk/index.html). I am fortunate to visit the [Active Vision Laboratory](https://www.robots.ox.ac.uk/~lav/), [University of Oxford](https://www.ox.ac.uk/) advised by Prof. [Victor Prisacariu](https://www.robots.ox.ac.uk/~victor/). I received my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). Research Focus: Visual Localization, 3D Reconstruction, improve the user's Augmented Reality (AR) and Virtual Reality (VR) experience.
 
-
+**I am currently seeking both academic and industry opportunities for 2025-2026. Feel free to reach out via email!.**
 
 # 🔥 News
 - *2025.01*: &nbsp;🎉🎉 Two papers are accepted to International Conference on Robotics and Automation (ICRA) 2025. Thanks to all coauthors!
