@@ -116,7 +116,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 - *2018, 2019* Class C Scholarship of SJTU
 
 # Academic Service
-- Reviewer: ICRA, ICLR
+- Reviewer: IROS, ICRA, ICLR
 
 <html lang="zh">
 <head>
