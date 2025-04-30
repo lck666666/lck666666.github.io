@@ -48,7 +48,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 
 Jianhao Jiao, Jinhao He, **Changkun Liu**, Sebastian Aegidius, Xiangcheng Hu, Tristan Braud, Dimitrios Kanoulas. (**ICRA 2025**)
 
-[**[Project]**](https://rpl-cs-ucl.github.io/LiteVLoc)  [**[Code]**](https://github.com/RPL-CS-UCL/litevloc_code)[GitHub Stars](https://img.shields.io/github/stars/RPL-CS-UCL/litevloc_code?style=social)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**[Project]**](https://rpl-cs-ucl.github.io/LiteVLoc)  [**[Code]**](https://github.com/RPL-CS-UCL/litevloc_code)![GitHub Stars](https://img.shields.io/github/stars/RPL-CS-UCL/litevloc_code?style=social)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - This paper introduces LiteVLoc, a hierarchical visual localization framework using lightweight topometric maps for efficient, precise camera pose estimation, validated through experiments in simulated and real-world scenarios.
 </div>
 </div>
@@ -72,7 +72,7 @@ Cross-device Queries](https://arxiv.org/pdf/2311.17389.pdf)
 
 Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and Sai-Kit Yeung (**CVPR 2024**)
 
-[**[Project]**](https://huajianup.github.io/research/360Loc/) [**[Dataset]**](https://github.com/HuajianUP/360Loc)[GitHub Stars](https://img.shields.io/github/stars/HuajianUP/360Loc?style=social)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**[Project]**](https://huajianup.github.io/research/360Loc/) [**[Dataset]**](https://github.com/HuajianUP/360Loc)![GitHub Stars](https://img.shields.io/github/stars/HuajianUP/360Loc?style=social)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - 360Loc is the first dataset and benchmark that explores the challenge of cross-device visual positioning, involving 360° reference frames, and query frames from pinhole, ultra-wide FoV fisheye, and 360° cameras. 
 </div>
 </div>
