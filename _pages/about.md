@@ -37,7 +37,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 
 **Changkun Liu**, Shuai Chen, Yash Bhalgat, Siyan Hu, Ming Cheng, Zirui Wang, Victor Adrian Prisacariu, Tristan Braud. (**ICLR 2025**)
 
-[**[Project]**](https://xrim-lab.github.io/GS-CPR/)  [**[Code]**](https://github.com/XRIM-Lab/GS-CPR) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**[Project]**](https://xrim-lab.github.io/GS-CPR/)  [**[Code]**](https://github.com/XRIM-Lab/GS-CPR)![GitHub Stars](https://img.shields.io/github/stars/XRIM-Lab/GS-CPR?style=social) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - GS-CPR is a camera pose refinement framework that leverages 3D Gaussian Splatting for scene representation, combined with the 3D foundation model, MASt3R.
 </div>
 </div>
