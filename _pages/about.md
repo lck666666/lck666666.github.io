@@ -102,7 +102,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 
 
 # 💻 Experience
-- *2025.01 - now*, Research Intern, Ant Research, Ant Group.
+- *2025.01 - 2025.06*, Research Intern, Ant Research, Ant Group.
 - *2024.04 - 2024.08*, Visiting Research Student at the University of Oxford, Oxford, UK.
 - *2020.06 - 2021.05*, Intel Asia-Pacific R&D Ltd., Shanghai, China.
 - *2019.07 - 2019.08*, University of Washington, Seattle, US.
