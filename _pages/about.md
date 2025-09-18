@@ -22,6 +22,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 **I am currently seeking both academic and industry opportunities for 2025-2026. Feel free to reach out via email!!**
 
 # 🔥 News
+- *2025.09*: &nbsp;🎉🎉 One papers is accepted to Conference on Neural Information Processing Systems (NeurIPS) 2025. Thanks to all coauthors!
 - *2025.01*: &nbsp;🎉🎉 Two papers are accepted to International Conference on Robotics and Automation (ICRA) 2025. Thanks to all coauthors!
 - *2025.01*: &nbsp;🎉🎉 One paper is accepted to International Conference on Learning Representations (ICLR) 2025. Thanks to all coauthors!
 - *2024.04*: &nbsp;🎉🎉 Start visiting in [the Active Vision Laboratory](https://www.robots.ox.ac.uk/~lav/), [University of Oxford](https://www.ox.ac.uk/)! Thanks [Shuai Chen](https://chenusc11.github.io/) for showing me around the University and Lab!
