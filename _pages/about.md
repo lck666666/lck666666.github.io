@@ -32,7 +32,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 # 📝 Publications and Preprints
 \* equal contribution
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS
-  2025</div><img src='../research/PLANA3R/camera_ready2.mp4
+  2025</div><img src='../research/PLANA3R/camera_ready2.gif
   ' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [PLANA3R: Zero-shot Metric Planar 3D Reconstruction via Feed-Forward
@@ -41,7 +41,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 **Changkun Liu**, Bin Tan, Zeran Ke, Shangzhan Zhang, Jiachen Liu, Ming
   Qian, Nan Xue, Yujun Shen, Tristan Braud. (**NeurIPS 2025**)
 
-[**[Project]**](https://lck666666.github.io/plana3r/)  [**[Code]**]()![GitHub Stars]() <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**[Project]**](https://lck666666.github.io/plana3r/)
 - Given two images captured from the same scene, PLANA3R outputs a set of 3D planar primitives and 6-DoF relative camera pose in metric scale.
 </div>
 </div>
