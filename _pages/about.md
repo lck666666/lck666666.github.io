@@ -38,7 +38,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 [PLANA3R: Zero-shot Metric Planar 3D Reconstruction via Feed-Forward
   Planar Splatting](https://lck666666.github.io/plana3r/Plana3r_NeurIPS_2025.pdf)
 
-**Changkun Liu**, Bin Tan, Zeran Ke, Shangzhan Zhang, Jiachen Liu, Ming
+**Changkun Liu\***, Bin Tan\*, Zeran Ke, Shangzhan Zhang, Jiachen Liu, Ming
   Qian, Nan Xue, Yujun Shen, Tristan Braud. (**NeurIPS 2025**)
 
 [**[Project]**](https://lck666666.github.io/plana3r/)
