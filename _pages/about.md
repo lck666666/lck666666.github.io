@@ -23,7 +23,7 @@ I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong Univer
 # 🔥 News
 - *2025.10*: &nbsp;🎉🎉 [OpenNavMap](https://openreview.net/pdf?id=zmTTpkbrvv) received the Best Paper Award at the IROS 2025 Workshop: Open World Navigation in Human-centric Environments! Thanks to all coauthors!
 - *2025.09*: &nbsp;🎉🎉 One paper is accepted to Conference on Neural Information Processing Systems (NeurIPS) 2025. Thanks to all coauthors!
-- *2025.06*: &nbsp;🎉🎉 Invited talk: _Camera Relocalization and 3D Reconstruction_ at Android XR, Google (online)
+- *2025.06*: &nbsp;🎙️🎙️ Invited talk: _Camera Relocalization and 3D Reconstruction_ at Android XR, Google (online)
 - *2025.01*: &nbsp;🎉🎉 Two papers are accepted to International Conference on Robotics and Automation (ICRA) 2025. Thanks to all coauthors!
 - *2025.01*: &nbsp;🎉🎉 One paper is accepted to International Conference on Learning Representations (ICLR) 2025. Thanks to all coauthors!
 - *2024.04*: &nbsp;🎉🎉 Start visiting in [the Active Vision Laboratory](https://www.robots.ox.ac.uk/~lav/), [University of Oxford](https://www.ox.ac.uk/)! Thanks [Shuai Chen](https://chenusc11.github.io/) for showing me around the University and Lab!
