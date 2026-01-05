@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a PhD candidate in Computer Science and Engineering at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), supervised by Prof. [Tristan Braud](https://braudt.people.ust.hk/index.html). I previously worked as a research intern at [Ant Research](https://www.antresearch.com/LaboratoryDetails/Intelligent_Interaction_Lab-detail), working with Dr. [Nan Xue](https://xuenan.net/) and Dr. [Bin Tan](https://icetttb.github.io/). I was fortunate to visit the [Active Vision Laboratory](https://www.robots.ox.ac.uk/~lav/), [University of Oxford](https://www.ox.ac.uk/) advised by Prof. [Victor Prisacariu](https://www.robots.ox.ac.uk/~victor/). I received my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). Research Focus: Visual Localization, 3D Reconstruction, and AR/VR.
+ I am currently a student researcher at Google and a PhD candidate in Computer Science and Engineering at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), supervised by Prof. [Tristan Braud](https://braudt.people.ust.hk/index.html). I previously worked as a research intern at [Ant Research](https://www.antresearch.com/LaboratoryDetails/Intelligent_Interaction_Lab-detail), working with Dr. [Nan Xue](https://xuenan.net/) and Dr. [Bin Tan](https://icetttb.github.io/). I was fortunate to visit the [Active Vision Laboratory](https://www.robots.ox.ac.uk/~lav/), [University of Oxford](https://www.ox.ac.uk/) advised by Prof. [Victor Prisacariu](https://www.robots.ox.ac.uk/~victor/). I received my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). Research Focus: Visual Localization, 3D Reconstruction, and AR/VR.
 
 
 # 🔥 News
@@ -118,6 +118,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 
 
 # 💻 Experience
+- *2025.01 - now*, Student Researcher, Google.
 - *2025.01 - 2025.06*, Research Intern, Ant Research, Ant Group.
 - *2024.04 - 2024.08*, Visiting Research Student at the University of Oxford, Oxford, UK.
 - *2020.06 - 2021.05*, Intel Asia-Pacific R&D Ltd., Shanghai, China.
