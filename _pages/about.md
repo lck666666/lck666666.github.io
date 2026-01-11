@@ -118,7 +118,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 
 
 # 💻 Experience
-- *2025.01 - now*, Student Researcher, Google, San Jose, CA, US.
+- *2026.01 - now*, Student Researcher, Google, San Jose, CA, US.
 - *2025.01 - 2025.06*, Research Intern, Ant Research, Ant Group, Hangzhou, China.
 - *2024.04 - 2024.08*, Visiting Research Student at the University of Oxford, Oxford, UK.
 - *2020.06 - 2021.05*, Intel Asia-Pacific R&D Ltd., Shanghai, China.
