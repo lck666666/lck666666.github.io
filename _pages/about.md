@@ -21,6 +21,7 @@ redirect_from:
 
 
 # 🔥 News
+- *2026.01*: &nbsp;🎉🎉 One paper is accepted to International Conference on Learning Representations (ICLR) 2026. Thanks to all coauthors!
 - *2025.10*: &nbsp;🎉🎉 [OpenNavMap](https://openreview.net/pdf?id=zmTTpkbrvv) received the ⭐️Best Paper Award⭐️ at the IROS 2025 Workshop: Open World Navigation in Human-centric Environments! Thanks to all coauthors!
 - *2025.09*: &nbsp;🎉🎉 One paper is accepted to Conference on Neural Information Processing Systems (NeurIPS) 2025. Thanks to all coauthors!
 - *2025.06*: &nbsp;🎙️🎙️ Invited talk: _Camera Relocalization and 3D Reconstruction_ at [Android XR, Google](https://blog.google/products/android/android-xr/) (online)
