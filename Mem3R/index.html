@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mem3R: Streaming 3D Reconstruction with Hybrid Memory via Test-Time Training</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css?v=2">
+</head>
+
+<body>
+
+<!-- ==================== NAVBAR ==================== -->
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+</nav>
+
+<!-- ==================== HERO ==================== -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+
+          <h1 class="title is-1 publication-title">Mem3R: Streaming 3D Reconstruction with Hybrid Memory via Test-Time Training</h1>
+          <h2 class="subtitle is-3 publication-subtitle">
+            <!-- TODO: add paper subtitle -->
+          </h2>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://lck666666.github.io/">Changkun Liu</a><sup>1,2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="#">Jiezhi Yang</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="#">Zeman Li</a><sup>1,3</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Google,</span>
+            <span class="author-block"><sup>2</sup>HKUST,</span>
+            <span class="author-block"><sup>3</sup>USC</span>
+          </div>
+
+          <!-- Conference / Venue -->
+          <!-- <div class="is-size-5 has-text-centered" style="margin-top: 0.5rem;">
+            <span class="venue-tag">Conference 20XX</span>
+          </div> -->
+
+          <!-- Links -->
+          <div class="column has-text-centered">
+            <div class="publication-links">
+
+              <!-- Paper PDF -->
+              <span class="link-block">
+                <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <!-- arXiv -->
+              <span class="link-block">
+                <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="ai ai-arxiv"></i></span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <!-- Video -->
+              <span class="link-block">
+                <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-youtube"></i></span>
+                  <span>Video</span>
+                </a>
+              </span>
+
+              <!-- Code -->
+              <span class="link-block">
+                <a href="https://github.com/liuchangkundeimac/Mem3R" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>Code</span>
+                </a>
+              </span>
+
+            </div>
+          </div>
+          <!-- /Links -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /HERO -->
+
+
+<!-- ==================== TEASER ==================== -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="teaser-video" autoplay muted loop playsinline>
+        <source src="static/videos/mem3r_fixed.mp4" type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
+        <!-- TODO: one-sentence teaser caption -->
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- /TEASER -->
+
+
+<!-- ==================== INTERACTIVE DEMO ==================== -->
+<section class="section" id="demo">
+  <div class="container is-max-widescreen">
+    <h2 class="title is-3 has-text-centered">Interactive 3D Demo</h2>
+
+    <!-- Dual viewer row -->
+    <div id="dual-viewer">
+
+      <!-- Left: Baseline -->
+      <div class="viewer-panel">
+        <div class="viewer-label viewer-label-left">W/O Mem3R</div>
+        <div class="viewer-box" id="viewer-box-left">
+          <canvas id="canvas-left"></canvas>
+          <div class="ply-loading" id="loading-left">
+            <i class="fas fa-spinner fa-spin"></i>
+            <span>Loading…</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Ours -->
+      <div class="viewer-panel">
+        <div class="viewer-label viewer-label-right">W/ Mem3R</div>
+        <div class="viewer-box" id="viewer-box-right">
+          <canvas id="canvas-right"></canvas>
+          <div class="ply-loading" id="loading-right">
+            <i class="fas fa-spinner fa-spin"></i>
+            <span>Loading…</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /dual-viewer -->
+
+    <!-- Controls hint -->
+    <div class="viewer-controls-hint">
+      <span><strong>Left Drag</strong> Orbit</span>
+      <span><strong>Wheel</strong> Zoom</span>
+      <span><strong>Right Drag</strong> Pan</span>
+    </div>
+
+    <!-- Scene thumbnail picker -->
+    <div id="scene-picker">
+      <div class="scene-thumb active"
+           data-left="static/models/pool_cut3r_c3_ds50_nimage141.ply"
+           data-right="static/models/pool_ours_cut3r_c3_ds50_nimage141.ply"
+           data-image="static/images/frame_cut3r_vs_ours.jpg">
+        <img src="static/images/frame_cut3r_vs_ours.jpg" alt="Pool">
+        <span>Pool</span>
+      </div>
+      <!-- Add more scenes here as data-* attributes -->
+    </div>
+
+    <!-- Comparison image -->
+    <div id="comparison-image-wrap">
+      <img id="comparison-image" src="static/images/frame_cut3r_vs_ours.jpg" alt="Comparison">
+    </div>
+
+  </div>
+</section>
+<!-- /INTERACTIVE DEMO -->
+
+
+<!-- ==================== ABSTRACT ==================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            <!-- TODO: paste abstract here -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /ABSTRACT -->
+
+
+<!-- ==================== METHOD OVERVIEW ==================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Method</h2>
+    <div class="content has-text-justified">
+      <p>
+        <!-- TODO: method description -->
+      </p>
+    </div>
+    <!-- TODO: method figure -->
+    <div class="teaser-placeholder">
+      <p class="has-text-centered has-text-grey">Method overview figure goes here</p>
+    </div>
+  </div>
+</section>
+<!-- /METHOD -->
+
+
+<!-- ==================== RESULTS ==================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Results</h2>
+
+    <!-- Video / Demo -->
+    <div class="content has-text-justified">
+      <p>
+        <!-- TODO: results description -->
+      </p>
+    </div>
+
+    <!-- TODO: add result videos or images here -->
+    <div class="teaser-placeholder">
+      <p class="has-text-centered has-text-grey">Result visualizations go here</p>
+    </div>
+
+  </div>
+</section>
+<!-- /RESULTS -->
+
+
+<!-- ==================== BIBTEX ==================== -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{mem3r2025,
+  author    = {Author 1 and Author 2 and Author 3},
+  title     = {Mem3R},
+  journal   = {arXiv preprint},
+  year      = {2025},
+}</code></pre>
+  </div>
+</section>
+<!-- /BIBTEX -->
+
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        Website template adapted from
+        <a href="https://nerfies.github.io">Nerfies</a>
+        and
+        <a href="https://haian-jin.github.io/ZipMap/">ZipMap</a>.
+        Licensed under
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+      </p>
+    </div>
+  </div>
+</footer>
+<!-- /FOOTER -->
+
+<script src="static/js/index.js"></script>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+<script type="module" src="static/js/ply-viewer.js?v=3"></script>
+</body>
+</html>

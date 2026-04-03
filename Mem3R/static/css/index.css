@@ -1,0 +1,268 @@
+/* =============================================
+   Mem3R Project Page — Custom Styles
+   ============================================= */
+
+body {
+  font-family: 'Google Sans', 'Noto Sans', sans-serif;
+  color: #333;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  background: transparent;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* ---------- Hero / Title ---------- */
+.publication-title {
+  font-family: 'Google Sans', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.15;
+}
+
+.publication-subtitle {
+  font-weight: 400;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+.publication-authors {
+  margin-top: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.publication-authors a {
+  color: #4a90d9 !important;
+  text-decoration: none;
+}
+
+.publication-authors a:hover {
+  color: #2a6db5 !important;
+}
+
+.venue-tag {
+  display: inline-block;
+  background: #f0f4ff;
+  border: 1px solid #c8d8ff;
+  color: #2d4cc8;
+  border-radius: 6px;
+  padding: 0.2rem 0.8rem;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+
+/* ---------- Publication Links ---------- */
+.publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.link-block .button {
+  font-size: 0.95rem;
+  padding: 0.5rem 1.1rem;
+}
+
+/* ---------- Teaser ---------- */
+.hero.teaser {
+  background: #f9f9f9;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.hero.teaser video,
+.hero.teaser img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+}
+
+/* ---------- Teaser Placeholder ---------- */
+.teaser-placeholder {
+  width: 100%;
+  min-height: 320px;
+  background: #f0f0f0;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: #999;
+}
+
+/* ---------- Section Titles ---------- */
+.section {
+  padding: 3rem 1.5rem;
+}
+
+.title.is-3 {
+  font-family: 'Google Sans', sans-serif;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* ---------- Teaser Video ---------- */
+#teaser-video {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+}
+
+/* ---------- Dual PLY Viewer ---------- */
+#dual-viewer {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 1rem;
+  width: 100%;
+}
+
+.viewer-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.viewer-label {
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.4rem;
+  padding: 0.2rem 0.8rem;
+  border-radius: 4px;
+}
+
+.viewer-label-left  { color: #2a6dd9; border: 1.5px solid #2a6dd9; }
+.viewer-label-right { color: #27ae60; border: 1.5px solid #27ae60; }
+
+.viewer-box {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+  border: 1px solid #e0e0e0;
+}
+
+.viewer-box canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.ply-loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #999;
+  background: #ffffff;
+  font-size: 0.9rem;
+}
+
+/* ---------- Controls hint ---------- */
+.viewer-controls-hint {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 0.75rem;
+  font-size: 0.82rem;
+  color: #888;
+}
+
+.viewer-controls-hint strong {
+  color: #444;
+  margin-right: 0.25rem;
+}
+
+/* ---------- Scene picker ---------- */
+#scene-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.scene-thumb {
+  cursor: pointer;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 3px solid transparent;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  transition: border-color 0.2s, transform 0.15s;
+  width: 140px;
+  text-align: center;
+}
+
+.scene-thumb img {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+  display: block;
+}
+
+.scene-thumb span {
+  display: block;
+  font-size: 0.78rem;
+  padding: 0.25rem 0.3rem;
+  background: #f5f5f5;
+  color: #555;
+  font-weight: 500;
+}
+
+.scene-thumb:hover   { transform: translateY(-2px); border-color: #aaa; }
+.scene-thumb.active  { border-color: #3273dc; }
+.scene-thumb.active span { color: #3273dc; background: #eef3ff; }
+
+/* ---------- Comparison image ---------- */
+#comparison-image-wrap {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+#comparison-image {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+  border: 1px solid #e0e0e0;
+}
+
+/* ---------- BibTeX ---------- */
+#BibTeX pre {
+  background: #f5f5f5;
+  border-radius: 6px;
+  padding: 1.2rem 1.5rem;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  overflow-x: auto;
+  border: 1px solid #e0e0e0;
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  background: #fafafa;
+  border-top: 1px solid #eee;
+  padding: 2rem 1.5rem;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.footer a {
+  color: #555;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #3273dc;
+}
