@@ -228,16 +228,21 @@
   <div class="container is-max-desktop">
     <h2 class="title is-3 has-text-centered">Results</h2>
 
-    <!-- Video / Demo -->
     <div class="content has-text-justified">
       <p>
-        <!-- TODO: results description -->
+        We quantitatively evaluate camera pose estimation on the ScanNet dataset and the TUM Dynamics dataset.
+        Mem3R achieves significant improvement compared with CUT3R.
+        Moreover, when combined with training-free, plug-and-play state update strategies TTT3R or TTSA3R,
+        Mem3R further yields better results compared to applying these strategies to CUT3R.
       </p>
     </div>
 
-    <!-- TODO: add result videos or images here -->
-    <div class="teaser-placeholder">
-      <p class="has-text-centered has-text-grey">Result visualizations go here</p>
+    <!-- Pose estimation figure -->
+    <div class="has-text-centered">
+      <img src="static/images/pose_results.png" alt="Quantitative evaluation of camera pose estimation on ScanNet and TUM Dynamics datasets" style="max-width: 100%; border-radius: 4px;">
+      <p class="is-size-7 has-text-grey" style="margin-top: 0.5rem;">
+        <strong>Figure 3:</strong> Quantitative evaluation of camera pose estimation from the ScanNet dataset (left) and the TUM Dynamics dataset (right).
+      </p>
     </div>
 
   </div>
