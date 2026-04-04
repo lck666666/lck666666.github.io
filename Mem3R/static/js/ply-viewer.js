@@ -166,14 +166,16 @@ function loadPLY(url, viewer, side) {
 
 // ── Scene switcher ───────────────────────────────────────────────────────────
 const thumbs = document.querySelectorAll('.scene-thumb');
-const compImg = document.getElementById('comparison-image');
+const labelLeft  = document.getElementById('label-left');
+const labelRight = document.getElementById('label-right');
 
 function loadScene(thumb) {
   thumbs.forEach(t => t.classList.remove('active'));
   thumb.classList.add('active');
   loadPLY(thumb.dataset.left,  left,  'left');
   loadPLY(thumb.dataset.right, right, 'right');
-  if (compImg && thumb.dataset.image) compImg.src = thumb.dataset.image;
+  if (labelLeft)  labelLeft.textContent  = thumb.dataset.labelLeft  || '';
+  if (labelRight) labelRight.textContent = thumb.dataset.labelRight || '';
 }
 
 thumbs.forEach(t => t.addEventListener('click', () => loadScene(t)));

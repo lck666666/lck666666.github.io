@@ -134,7 +134,7 @@
 
       <!-- Left: Baseline -->
       <div class="viewer-panel">
-        <div class="viewer-label viewer-label-left">W/O Mem3R</div>
+        <div class="viewer-label viewer-label-left" id="label-left">CUT3R</div>
         <div class="viewer-box" id="viewer-box-left">
           <canvas id="canvas-left"></canvas>
           <div class="ply-loading" id="loading-left">
@@ -146,7 +146,7 @@
 
       <!-- Right: Ours -->
       <div class="viewer-panel">
-        <div class="viewer-label viewer-label-right">W/ Mem3R</div>
+        <div class="viewer-label viewer-label-right" id="label-right">Mem3R</div>
         <div class="viewer-box" id="viewer-box-right">
           <canvas id="canvas-right"></canvas>
           <div class="ply-loading" id="loading-right">
@@ -170,16 +170,24 @@
       <div class="scene-thumb active"
            data-left="static/models/pool_cut3r_c3_ds50_nimage141.ply"
            data-right="static/models/pool_ours_cut3r_c3_ds50_nimage141.ply"
-           data-image="static/images/frame_cut3r_vs_ours.jpg">
-        <img src="static/images/frame_cut3r_vs_ours.jpg" alt="Pool">
-        <span>Pool</span>
+           data-label-left="CUT3R"
+           data-label-right="Mem3R">
+        <img src="static/images/demo1_cut3r_vs_ours.jpg" alt="CUT3R vs Mem3R">
       </div>
-      <!-- Add more scenes here as data-* attributes -->
-    </div>
-
-    <!-- Comparison image -->
-    <div id="comparison-image-wrap">
-      <img id="comparison-image" src="static/images/frame_cut3r_vs_ours.jpg" alt="Comparison">
+      <div class="scene-thumb"
+           data-left="static/models/stairs_ttt_ds60_nimage250.ply"
+           data-right="static/models/stairs_ours_ttt_ds60_nimage250.ply"
+           data-label-left="TTT3R"
+           data-label-right="Mem3R + TTT3R">
+        <img src="static/images/demo1_ttt3r_vs_ours_ttt3r.png" alt="TTT3R vs Mem3R+TTT3R">
+      </div>
+      <div class="scene-thumb"
+           data-left="static/models/hotel_ttsa_ds70_nimage500.ply"
+           data-right="static/models/hotel_ours_ttsa_ds70_nimage500.ply"
+           data-label-left="TTSA3R"
+           data-label-right="Mem3R + TTSA3R">
+        <img src="static/images/demo1_ttsa3r_vs_ours_ttsa3r.png" alt="TTSA3R vs Mem3R+TTSA3R">
+      </div>
     </div>
 
   </div>
@@ -253,11 +261,11 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{mem3r2025,
+    <pre><code>@article{mem3r2026,
   author    = {Author 1 and Author 2 and Author 3},
   title     = {Mem3R},
   journal   = {arXiv preprint},
-  year      = {2025},
+  year      = {2026},
 }</code></pre>
   </div>
 </section>
