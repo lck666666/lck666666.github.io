@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="static/css/index.css?v=2">
+  <link rel="stylesheet" href="static/css/index.css?v=3">
 </head>
 
 <body>
@@ -124,6 +124,129 @@
 <!-- /TEASER -->
 
 
+<!-- ==================== EFFICIENCY ==================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Efficiency highlight banner -->
+    <div class="efficiency-banner">
+      <div class="efficiency-item">
+        <span class="efficiency-icon">&#9889;</span>
+        <span class="efficiency-value">26 FPS</span>
+        <span class="efficiency-label">Runtime</span>
+      </div>
+      <div class="efficiency-divider"></div>
+      <div class="efficiency-item">
+        <span class="efficiency-icon">&#128204;</span>
+        <span class="efficiency-value">7.2 GB</span>
+        <span class="efficiency-label">GPU Memory</span>
+      </div>
+      <div class="efficiency-divider"></div>
+      <div class="efficiency-item">
+        <span class="efficiency-icon">&#9881;</span>
+        <span class="efficiency-value">644M</span>
+        <span class="efficiency-label">Parameters</span>
+      </div>
+    </div>
+
+    <!-- Efficiency table -->
+    <div style="margin-top: 2rem;">
+      <table class="efficiency-table">
+        <thead>
+          <tr>
+            <th>Method</th>
+            <th>Runtime (fps) &uarr;</th>
+            <th>Memory (MiB) &darr;</th>
+            <th>Params &darr;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CUT3R</td>
+            <td>26</td>
+            <td>7930</td>
+            <td>793M</td>
+          </tr>
+          <tr class="ours-row">
+            <td>Ours</td>
+            <td>26</td>
+            <td class="better">7340</td>
+            <td class="better">644M</td>
+          </tr>
+          <tr class="spacer-row"><td colspan="4"></td></tr>
+          <tr>
+            <td>TTT3R</td>
+            <td>25</td>
+            <td>8364</td>
+            <td>793M</td>
+          </tr>
+          <tr class="ours-row">
+            <td>Ours + TTT3R</td>
+            <td>25</td>
+            <td class="better">7774</td>
+            <td class="better">644M</td>
+          </tr>
+          <tr class="spacer-row"><td colspan="4"></td></tr>
+          <tr>
+            <td>TTSA3R</td>
+            <td>25</td>
+            <td>8786</td>
+            <td>793M</td>
+          </tr>
+          <tr class="ours-row">
+            <td>Ours + TTSA3R</td>
+            <td>25</td>
+            <td class="better">8208</td>
+            <td class="better">644M</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="is-size-7 has-text-grey has-text-centered" style="margin-top: 0.5rem;">
+        Efficiency comparison of runtime (fps) and GPU memory usage (MiB). <span style="color: #27ae60; font-weight: 600;">Green</span> indicates that our model matches or outperforms its corresponding base model.
+      </p>
+    </div>
+
+  </div>
+</section>
+<!-- /EFFICIENCY -->
+
+
+<!-- ==================== ABSTRACT ==================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            <!-- TODO: paste abstract here -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /ABSTRACT -->
+
+
+<!-- ==================== METHOD OVERVIEW ==================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Method</h2>
+    <div class="content has-text-justified">
+      <p>
+        <!-- TODO: method description -->
+      </p>
+    </div>
+    <!-- TODO: method figure -->
+    <div class="teaser-placeholder">
+      <p class="has-text-centered has-text-grey">Method overview figure goes here</p>
+    </div>
+  </div>
+</section>
+<!-- /METHOD -->
+
+
 <!-- ==================== INTERACTIVE DEMO ==================== -->
 <section class="section" id="demo">
   <div class="container is-max-widescreen">
@@ -195,42 +318,6 @@
 <!-- /INTERACTIVE DEMO -->
 
 
-<!-- ==================== ABSTRACT ==================== -->
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            <!-- TODO: paste abstract here -->
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /ABSTRACT -->
-
-
-<!-- ==================== METHOD OVERVIEW ==================== -->
-<section class="section">
-  <div class="container is-max-desktop">
-    <h2 class="title is-3 has-text-centered">Method</h2>
-    <div class="content has-text-justified">
-      <p>
-        <!-- TODO: method description -->
-      </p>
-    </div>
-    <!-- TODO: method figure -->
-    <div class="teaser-placeholder">
-      <p class="has-text-centered has-text-grey">Method overview figure goes here</p>
-    </div>
-  </div>
-</section>
-<!-- /METHOD -->
-
-
 <!-- ==================== RESULTS ==================== -->
 <section class="section">
   <div class="container is-max-desktop">
@@ -252,6 +339,14 @@
       </p>
     </div>
 
+    <!-- Trajectory visualization figure -->
+    <div class="has-text-centered" style="margin-top: 2.5rem;">
+      <img src="static/images/traj_vis.png" alt="Qualitative visualization of predicted camera trajectories" style="max-width: 100%; border-radius: 4px;">
+      <p class="is-size-7 has-text-grey has-text-justified" style="margin-top: 0.5rem;">
+        Qualitative visualization of predicted camera trajectories on the TUM Dynamics dataset (top two rows) and the ScanNet dataset (bottom two rows). Each row is evaluated on the same sequence. Our Mem3R achieves significant improvement compared with CUT3R. Moreover, when combined with TTT3R or TTSA3R, Mem3R further reduces drift compared to applying these strategies to CUT3R.
+      </p>
+    </div>
+
   </div>
 </section>
 <!-- /RESULTS -->
@@ -270,6 +365,20 @@
   </div>
 </section>
 <!-- /BIBTEX -->
+
+
+<!-- ==================== ACKNOWLEDGEMENTS ==================== -->
+<section class="section">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Acknowledgements</h2>
+    <p>
+      Changkun Liu is supported by Android XR, Google. 
+      We would like to thank Guangyao Zhai for the valuable discussion during the initial stages of this project, and Haian Jin for the assistance with the training setup. 
+      We appreciate the great code base and examples provided by CUT3R, TTT3R, TTSA3R and LaCT.
+    </p>
+  </div>
+</section>
+<!-- /ACKNOWLEDGEMENTS -->
 
 
 <!-- ==================== FOOTER ==================== -->

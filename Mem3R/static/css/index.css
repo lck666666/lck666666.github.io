@@ -238,6 +238,125 @@ body {
   border: 1px solid #e0e0e0;
 }
 
+/* ---------- Efficiency Banner ---------- */
+.efficiency-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  background: linear-gradient(135deg, #fef9e7 0%, #fdf2d5 100%);
+  border: 1px solid #f0d97a;
+  border-radius: 14px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 4px 20px rgba(240, 200, 50, 0.15);
+}
+
+.efficiency-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.efficiency-icon {
+  font-size: 1.6rem;
+  margin-bottom: 0.3rem;
+}
+
+.efficiency-value {
+  font-family: 'Google Sans', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #d4a017;
+  line-height: 1.1;
+}
+
+.efficiency-label {
+  font-size: 0.8rem;
+  color: #9a7b1a;
+  font-weight: 500;
+  margin-top: 0.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.efficiency-divider {
+  width: 1px;
+  height: 50px;
+  background: #e0c860;
+  margin: 0 1rem;
+}
+
+/* ---------- Efficiency Table ---------- */
+.efficiency-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.92rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+.efficiency-table thead tr {
+  background: linear-gradient(135deg, #2d4cc8, #3a6df0);
+  color: #fff;
+}
+
+.efficiency-table th {
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.02em;
+  border: none !important;
+  color: #fff !important;
+}
+
+.efficiency-table td {
+  padding: 0.6rem 1rem;
+  text-align: center;
+  border: none !important;
+  border-bottom: 1px solid #eee !important;
+}
+
+.efficiency-table tbody tr {
+  background: #fff;
+  transition: background 0.15s;
+}
+
+.efficiency-table tbody tr:hover {
+  background: #f7f9ff;
+}
+
+.efficiency-table tbody tr.ours-row {
+  background: #f0faf3;
+  font-weight: 600;
+}
+
+.efficiency-table tbody tr.ours-row:hover {
+  background: #e0f5e8;
+}
+
+.efficiency-table td.better {
+  color: #1e8449;
+  font-weight: 700;
+  position: relative;
+}
+
+.efficiency-table tbody tr.spacer-row {
+  height: 4px;
+  background: transparent;
+}
+
+.efficiency-table tbody tr.spacer-row:hover {
+  background: transparent;
+}
+
+.efficiency-table tbody tr.spacer-row td {
+  padding: 0;
+  border: none !important;
+}
+
 /* ---------- BibTeX ---------- */
 #BibTeX pre {
   background: #f5f5f5;
