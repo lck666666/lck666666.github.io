@@ -32,6 +32,10 @@ body {
   font-size: 1.1rem;
 }
 
+.publication-authors + .publication-authors {
+  margin-top: 1.2rem;
+}
+
 .publication-authors a {
   color: #4a90d9 !important;
   text-decoration: none;
