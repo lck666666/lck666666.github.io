@@ -42,10 +42,19 @@
               <a href="https://lck666666.github.io/">Changkun Liu</a><sup>1,2</sup>,
             </span>
             <span class="author-block">
-              <a href="#">Jiezhi Yang</a><sup>1</sup>,
+              <a href="https://stephenjyang.com/">Jiezhi Yang</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="#">Zeman Li</a><sup>1,3</sup>
+              <a href="https://sites.google.com/usc.edu/zemanli/">Zeman Li</a><sup>1,3</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://sites.google.com/view/yuandeng/home">Yuan Deng</a><sup>1</sup>
+            </span>
+            <span class="author-block">
+              <a href="#">Jiancong Guo</a><sup>1</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://lucaballan.altervista.org/">Luca Ballan</a><sup>1</sup>
             </span>
           </div>
 
@@ -81,12 +90,12 @@
               </span>
 
               <!-- Video -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="#" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon"><i class="fab fa-youtube"></i></span>
                   <span>Video</span>
                 </a>
-              </span>
+              </span> -->
 
               <!-- Code -->
               <span class="link-block">
@@ -149,6 +158,224 @@
       </div>
     </div>
 
+
+  </div>
+</section>
+<!-- /EFFICIENCY -->
+
+
+<!-- ==================== ABSTRACT ==================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+           Streaming 3D perception is well suited to robotics and augmented reality, where
+          long visual streams must be processed efficiently and consistently. Recent recurrent
+          models offer a promising solution by maintaining fixed-size states and enabling
+          linear-time inference, but they often suffer from drift accumulation and temporal
+          forgetting over long sequences due to the limited capacity of compressed latent
+          memories. We propose Mem3R, a streaming 3D reconstruction model with a
+          hybrid memory design that decouples camera tracking from geometric mapping
+          to improve temporal consistency over long sequences. For camera tracking,
+          Mem3R employs an implicit fast-weight memory implemented as a lightweight
+          Multi-Layer Perceptron updated via Test-Time Training. For geometric mapping,
+          Mem3R maintains an explicit token-based fixed-size state. Compared with CUT3R,
+          this design not only significantly improves long-sequence performance but also
+          reduces the model size from 793M to 644M parameters. Mem3R supports existing improved plug-and-play state update strategies developed for CUT3R.
+          Specifically, integrating it with TTT3R decreases Absolute Trajectory Error
+          by up to 39% over the base implementation on 500 to 1000 frame sequences.
+          The resulting improvements also extend to other downstream tasks, including
+          video depth estimation and 3D reconstruction, while preserving constant GPU
+          memory usage and comparable inference throughput. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /ABSTRACT -->
+
+
+<!-- ==================== TEASER FIGURE ==================== -->
+<section class="section" style="padding-bottom: 0;">
+  <div class="container is-max-desktop">
+    <div class="has-text-centered">
+      <img src="static/images/teaser.jpg" alt="Mem3R teaser" style="max-width: 100%; border-radius: 4px;">
+      <p class="is-size-7 has-text-grey has-text-justified" style="margin-top: 0.5rem;">
+        We present <strong>Mem3R</strong>, an RNN-based model built on the CUT3R paradigm that achieves stronger long-sequence streaming 3D perception. Built on a dual-memory design, Mem3R combines (i) an <em>implicit memory</em>, <em>W</em>, for camera pose estimation and (ii) an <em>explicit memory</em> of persistent tokens for global geometric context. It is further compatible with plug-and-play state-update strategies developed for CUT3R, such as TTT3R, yielding additional gains in reconstruction quality and camera pose estimation. Replacing CUT3R's heavy pose-related state tokens and decoder with a lightweight implicit MLP-based memory reduces the parameter count by about 19%, from <span style="color: #c0392b; font-weight: 600;">793</span>M to <span style="color: #27ae60; font-weight: 600;">644</span>M.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- /TEASER FIGURE -->
+
+
+<!-- ==================== METHOD OVERVIEW ==================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Method</h2>
+    <div class="has-text-centered">
+      <img src="static/images/framework.jpg" alt="Overview of Mem3R framework" style="max-width: 100%; border-radius: 4px;">
+      <p class="is-size-7 has-text-grey has-text-justified" style="margin-top: 0.5rem;">
+        <strong>Overview of Mem3R. Top:</strong> For each frame <em>I<sub>t</sub></em> in the streaming image sequence, a ViT encoder extracts image features <em>F<sub>t</sub></em>. The fast-weight module <em>W</em> performs camera tracking with decoder under Test-Time Training (TTT), while the fixed-size state <em>S</em> and decoder preserve and update geometric information, producing an intermediate state <em>S'<sub>t</sub></em>. <em>S'<sub>t</sub></em> is then fused with the previous state <em>S<sub>t-1</sub></em> through a channel-wise update module to obtain the final updated state <em>S<sub>t</sub></em>. By replacing pose-related state token with <em>W</em>, Mem3R maintains a constant-size recurrent state while reducing long-term temporal forgetting in streaming 3D reconstruction. <strong>Bottom:</strong> Illustration of the fast-weight and decoder module with TTT.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- /METHOD -->
+
+
+<!-- ==================== IN-THE-WILD ==================== -->
+<section class="section wild-section">
+  <div class="container is-max-widescreen">
+
+    <div class="wild-header">
+      <h2 class="title is-3 has-text-centered" style="margin-bottom: 0.3rem;">In-the-Wild Long-Sequence Reconstruction</h2>
+      <p class="has-text-centered wild-subtitle">End-to-end streaming 3D reconstruction without state reset and post optimization.</p>
+    </div>
+
+    <div class="wild-grid">
+
+      <!-- Video 1 — full width -->
+      <div class="wild-card wild-card-full">
+        <video autoplay muted loop playsinline>
+          <source src="static/videos/hk_demo1.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <!-- Video 2 + 3 — side by side -->
+      <div class="wild-card">
+        <video autoplay muted loop playsinline>
+          <source src="static/videos/stanford_arch.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="wild-card">
+        <video autoplay muted loop playsinline>
+          <source src="static/videos/stanford_loop_close.mp4" type="video/mp4">
+        </video>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!-- /IN-THE-WILD -->
+
+
+<!-- ==================== INTERACTIVE DEMO (commented out) ====================
+<section class="section" id="demo">
+  <div class="container is-max-widescreen">
+    <h2 class="title is-3 has-text-centered">Interactive 3D Demo</h2>
+
+    <div id="dual-viewer">
+      <div class="viewer-panel">
+        <div class="viewer-label viewer-label-left" id="label-left">CUT3R</div>
+        <div class="viewer-box" id="viewer-box-left">
+          <canvas id="canvas-left"></canvas>
+          <div class="ply-loading" id="loading-left">
+            <i class="fas fa-spinner fa-spin"></i>
+            <span>Loading…</span>
+          </div>
+        </div>
+      </div>
+      <div class="viewer-panel">
+        <div class="viewer-label viewer-label-right" id="label-right">Mem3R</div>
+        <div class="viewer-box" id="viewer-box-right">
+          <canvas id="canvas-right"></canvas>
+          <div class="ply-loading" id="loading-right">
+            <i class="fas fa-spinner fa-spin"></i>
+            <span>Loading…</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="viewer-controls-hint">
+      <span><strong>Left Drag</strong> Orbit</span>
+      <span><strong>Wheel</strong> Zoom</span>
+      <span><strong>Right Drag</strong> Pan</span>
+    </div>
+
+    <div id="scene-picker">
+      <div class="scene-thumb active"
+           data-left="static/models/pool_cut3r_c3_ds50_nimage141.ply"
+           data-right="static/models/pool_ours_cut3r_c3_ds50_nimage141.ply"
+           data-label-left="CUT3R"
+           data-label-right="Mem3R">
+        <img src="static/images/demo1_cut3r_vs_ours.jpg" alt="CUT3R vs Mem3R">
+      </div>
+      <div class="scene-thumb"
+           data-left="static/models/stairs_ttt_conf3_ds50_nimage250.ply"
+           data-right="static/models/stairs_ours_ttt_conf3_ds50_nimage250.ply"
+           data-label-left="TTT3R"
+           data-label-right="Mem3R + TTT3R">
+        <img src="static/images/demo1_ttt3r_vs_ours_ttt3r.png" alt="TTT3R vs Mem3R+TTT3R">
+      </div>
+      <div class="scene-thumb"
+           data-left="static/models/hotel_ttsa_ds70_nimage500.ply"
+           data-right="static/models/hotel_ours_ttsa_ds70_nimage500.ply"
+           data-label-left="TTSA3R"
+           data-label-right="Mem3R + TTSA3R">
+        <img src="static/images/demo1_ttsa3r_vs_ours_ttsa3r.png" alt="TTSA3R vs Mem3R+TTSA3R">
+      </div>
+    </div>
+
+  </div>
+</section>
+==================== /INTERACTIVE DEMO ==================== -->
+
+
+<!-- ==================== RESULTS ==================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Results</h2>
+
+    <div class="content has-text-justified">
+      <p>
+        We quantitatively evaluate camera pose estimation on the ScanNet dataset and the TUM Dynamics dataset.
+        Mem3R achieves significant improvement compared with CUT3R. Moreover, when combined with training-free, plug-and-play state update strategies TTT3R or TTSA3R,
+        Mem3R further yields better results compared to applying these strategies to CUT3R.
+      </p>
+    </div>
+
+    <!-- Pose estimation figure -->
+    <div class="has-text-centered">
+      <img src="static/images/pose_results.png" alt="Quantitative evaluation of camera pose estimation on ScanNet and TUM Dynamics datasets" style="max-width: 100%; border-radius: 4px;">
+      <p class="is-size-7 has-text-grey" style="margin-top: 0.5rem;">
+        Quantitative evaluation of camera pose estimation from the ScanNet dataset (left) and the TUM Dynamics dataset (right).
+      </p>
+    </div>
+
+    <!-- Trajectory visualization figure -->
+    <!-- <div class="has-text-centered" style="margin-top: 2.5rem;">
+      <img src="static/images/traj_vis.jpg" alt="Qualitative visualization of predicted camera trajectories" style="max-width: 90%; border-radius: 4px;">
+      <p class="is-size-7 has-text-grey has-text-justified" style="margin-top: 0.5rem;">
+        Qualitative visualization of predicted camera trajectories on the TUM Dynamics dataset (top two rows) and the ScanNet dataset (bottom two rows). Each row is evaluated on the same sequence. Our Mem3R achieves significant improvement compared with CUT3R. Moreover, when combined with TTT3R or TTSA3R, Mem3R further reduces drift compared to applying these strategies to CUT3R.
+      </p>
+    </div> -->
+
+  </div>
+</section>
+<!-- /RESULTS -->
+
+
+<!-- ==================== BIBTEX ==================== -->
+<!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{mem3r2026,
+  author    = {Author 1 and Author 2 and Author 3},
+  title     = {Mem3R},
+  journal   = {arXiv preprint},
+  year      = {2026},
+}</code></pre>
+  </div>
+</section> -->
+<!-- /BIBTEX -->
+
     <!-- Efficiency table -->
     <div style="margin-top: 2rem;">
       <table class="efficiency-table">
@@ -206,174 +433,13 @@
       </p>
     </div>
 
-  </div>
-</section>
-<!-- /EFFICIENCY -->
-
-
-<!-- ==================== ABSTRACT ==================== -->
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            <!-- TODO: paste abstract here -->
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /ABSTRACT -->
-
-
-<!-- ==================== METHOD OVERVIEW ==================== -->
-<section class="section">
-  <div class="container is-max-desktop">
-    <h2 class="title is-3 has-text-centered">Method</h2>
-    <div class="content has-text-justified">
-      <p>
-        <!-- TODO: method description -->
-      </p>
-    </div>
-    <!-- TODO: method figure -->
-    <div class="teaser-placeholder">
-      <p class="has-text-centered has-text-grey">Method overview figure goes here</p>
-    </div>
-  </div>
-</section>
-<!-- /METHOD -->
-
-
-<!-- ==================== INTERACTIVE DEMO ==================== -->
-<section class="section" id="demo">
-  <div class="container is-max-widescreen">
-    <h2 class="title is-3 has-text-centered">Interactive 3D Demo</h2>
-
-    <!-- Dual viewer row -->
-    <div id="dual-viewer">
-
-      <!-- Left: Baseline -->
-      <div class="viewer-panel">
-        <div class="viewer-label viewer-label-left" id="label-left">CUT3R</div>
-        <div class="viewer-box" id="viewer-box-left">
-          <canvas id="canvas-left"></canvas>
-          <div class="ply-loading" id="loading-left">
-            <i class="fas fa-spinner fa-spin"></i>
-            <span>Loading…</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Right: Ours -->
-      <div class="viewer-panel">
-        <div class="viewer-label viewer-label-right" id="label-right">Mem3R</div>
-        <div class="viewer-box" id="viewer-box-right">
-          <canvas id="canvas-right"></canvas>
-          <div class="ply-loading" id="loading-right">
-            <i class="fas fa-spinner fa-spin"></i>
-            <span>Loading…</span>
-          </div>
-        </div>
-      </div>
-
-    </div><!-- /dual-viewer -->
-
-    <!-- Controls hint -->
-    <div class="viewer-controls-hint">
-      <span><strong>Left Drag</strong> Orbit</span>
-      <span><strong>Wheel</strong> Zoom</span>
-      <span><strong>Right Drag</strong> Pan</span>
-    </div>
-
-    <!-- Scene thumbnail picker -->
-    <div id="scene-picker">
-      <div class="scene-thumb active"
-           data-left="static/models/pool_cut3r_c3_ds50_nimage141.ply"
-           data-right="static/models/pool_ours_cut3r_c3_ds50_nimage141.ply"
-           data-label-left="CUT3R"
-           data-label-right="Mem3R">
-        <img src="static/images/demo1_cut3r_vs_ours.jpg" alt="CUT3R vs Mem3R">
-      </div>
-      <div class="scene-thumb"
-           data-left="static/models/stairs_ttt_conf3_ds50_nimage250.ply"
-           data-right="static/models/stairs_ours_ttt_conf3_ds50_nimage250.ply"
-           data-label-left="TTT3R"
-           data-label-right="Mem3R + TTT3R">
-        <img src="static/images/demo1_ttt3r_vs_ours_ttt3r.png" alt="TTT3R vs Mem3R+TTT3R">
-      </div>
-      <div class="scene-thumb"
-           data-left="static/models/hotel_ttsa_ds70_nimage500.ply"
-           data-right="static/models/hotel_ours_ttsa_ds70_nimage500.ply"
-           data-label-left="TTSA3R"
-           data-label-right="Mem3R + TTSA3R">
-        <img src="static/images/demo1_ttsa3r_vs_ours_ttsa3r.png" alt="TTSA3R vs Mem3R+TTSA3R">
-      </div>
-    </div>
-
-  </div>
-</section>
-<!-- /INTERACTIVE DEMO -->
-
-
-<!-- ==================== RESULTS ==================== -->
-<section class="section">
-  <div class="container is-max-desktop">
-    <h2 class="title is-3 has-text-centered">Results</h2>
-
-    <div class="content has-text-justified">
-      <p>
-        We quantitatively evaluate camera pose estimation on the ScanNet dataset and the TUM Dynamics dataset.
-        Mem3R achieves significant improvement compared with CUT3R. Moreover, when combined with training-free, plug-and-play state update strategies TTT3R or TTSA3R,
-        Mem3R further yields better results compared to applying these strategies to CUT3R.
-      </p>
-    </div>
-
-    <!-- Pose estimation figure -->
-    <div class="has-text-centered">
-      <img src="static/images/pose_results.png" alt="Quantitative evaluation of camera pose estimation on ScanNet and TUM Dynamics datasets" style="max-width: 100%; border-radius: 4px;">
-      <p class="is-size-7 has-text-grey" style="margin-top: 0.5rem;">
-        Quantitative evaluation of camera pose estimation from the ScanNet dataset (left) and the TUM Dynamics dataset (right).
-      </p>
-    </div>
-
-    <!-- Trajectory visualization figure -->
-    <div class="has-text-centered" style="margin-top: 2.5rem;">
-      <img src="static/images/traj_vis.jpg" alt="Qualitative visualization of predicted camera trajectories" style="max-width: 90%; border-radius: 4px;">
-      <p class="is-size-7 has-text-grey has-text-justified" style="margin-top: 0.5rem;">
-        Qualitative visualization of predicted camera trajectories on the TUM Dynamics dataset (top two rows) and the ScanNet dataset (bottom two rows). Each row is evaluated on the same sequence. Our Mem3R achieves significant improvement compared with CUT3R. Moreover, when combined with TTT3R or TTSA3R, Mem3R further reduces drift compared to applying these strategies to CUT3R.
-      </p>
-    </div>
-
-  </div>
-</section>
-<!-- /RESULTS -->
-
-
-<!-- ==================== BIBTEX ==================== -->
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@article{mem3r2026,
-  author    = {Author 1 and Author 2 and Author 3},
-  title     = {Mem3R},
-  journal   = {arXiv preprint},
-  year      = {2026},
-}</code></pre>
-  </div>
-</section>
-<!-- /BIBTEX -->
-
-
 <!-- ==================== ACKNOWLEDGEMENTS ==================== -->
 <section class="section">
   <div class="container is-max-desktop content">
     <h2 class="title">Acknowledgements</h2>
     <p>
       Changkun Liu is supported by Android XR, Google. 
-      We would like to thank Guangyao Zhai for the valuable discussion during the initial stages of this project, and Haian Jin for the assistance with the training setup. 
+      We would like to thank  <a href="https://ymxlzgy.com/">Guangyao Zhai</a> for the valuable discussion during the initial stages of this project, and  <a href="https://haian-jin.github.io/">Haian Jin</a> for the assistance with the training setup. 
       We appreciate the great code base and examples provided by CUT3R, TTT3R, TTSA3R and LaCT.
     </p>
   </div>

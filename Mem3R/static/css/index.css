@@ -238,6 +238,58 @@ body {
   border: 1px solid #e0e0e0;
 }
 
+/* ---------- In-the-Wild Section ---------- */
+.wild-section {
+  background: linear-gradient(180deg, #0d1117 0%, #161b22 100%);
+  padding: 3.5rem 1.5rem;
+}
+
+.wild-header {
+  margin-bottom: 2rem;
+}
+
+.wild-header .title {
+  color: #f0f6fc !important;
+  font-family: 'Google Sans', sans-serif;
+}
+
+.wild-subtitle {
+  color: #8b949e;
+  font-size: 1.05rem;
+  letter-spacing: 0.03em;
+}
+
+.wild-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.wild-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.wild-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 48px rgba(0,0,0,0.6);
+  border-color: rgba(255,255,255,0.15);
+}
+
+.wild-card-full {
+  grid-column: 1 / -1;
+}
+
+.wild-card video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* ---------- Efficiency Banner ---------- */
 .efficiency-banner {
   display: flex;
