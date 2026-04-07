@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="static/css/index.css?v=3">
+  <link rel="stylesheet" href="static/css/index.css?v=5">
 </head>
 
 <body>
@@ -158,7 +158,6 @@
       </div>
     </div>
 
-
   </div>
 </section>
 <!-- /EFFICIENCY -->
@@ -230,34 +229,36 @@
 
 <!-- ==================== IN-THE-WILD ==================== -->
 <section class="section wild-section">
-  <div class="container is-max-widescreen">
+  <div class="container is-max-desktop">
 
     <div class="wild-header">
       <h2 class="title is-3 has-text-centered" style="margin-bottom: 0.3rem;">In-the-Wild Long-Sequence Reconstruction</h2>
       <p class="has-text-centered wild-subtitle">End-to-end streaming 3D reconstruction without state reset and post optimization.</p>
     </div>
 
-    <div class="wild-grid">
+    <!-- Carousel video player -->
+    <div class="wild-carousel">
+      <button class="wild-arrow wild-arrow-left" id="wild-prev">
+        <i class="fas fa-chevron-left"></i>
+      </button>
 
-      <!-- Video 1 — full width -->
-      <div class="wild-card wild-card-full">
-        <video autoplay muted loop playsinline>
-          <source src="static/videos/hk_demo1.mp4" type="video/mp4">
-        </video>
-      </div>
-
-      <!-- Video 2 + 3 — side by side -->
-      <div class="wild-card">
-        <video autoplay muted loop playsinline>
+      <div class="wild-video-wrap">
+        <video id="wild-video" autoplay muted loop playsinline>
           <source src="static/videos/stanford_arch.mp4" type="video/mp4">
         </video>
-      </div>
-      <div class="wild-card">
-        <video autoplay muted loop playsinline>
-          <source src="static/videos/stanford_loop_close.mp4" type="video/mp4">
-        </video>
+        <div class="wild-video-label" id="wild-video-label"></div>
       </div>
 
+      <button class="wild-arrow wild-arrow-right" id="wild-next">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <!-- Dots indicator -->
+    <div class="wild-dots" id="wild-dots">
+      <span class="wild-dot active"></span>
+      <span class="wild-dot"></span>
+      <span class="wild-dot"></span>
     </div>
 
   </div>
@@ -357,27 +358,8 @@
       </p>
     </div> -->
 
-  </div>
-</section>
-<!-- /RESULTS -->
-
-
-<!-- ==================== BIBTEX ==================== -->
-<!-- <section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@article{mem3r2026,
-  author    = {Author 1 and Author 2 and Author 3},
-  title     = {Mem3R},
-  journal   = {arXiv preprint},
-  year      = {2026},
-}</code></pre>
-  </div>
-</section> -->
-<!-- /BIBTEX -->
-
     <!-- Efficiency table -->
-    <div style="margin-top: 2rem;">
+    <div style="margin-top: 2.5rem;">
       <table class="efficiency-table">
         <thead>
           <tr>
@@ -396,7 +378,7 @@
           </tr>
           <tr class="ours-row">
             <td>Ours</td>
-            <td>26</td>
+            <td><strong>26</strong></td>
             <td class="better">7340</td>
             <td class="better">644M</td>
           </tr>
@@ -409,7 +391,7 @@
           </tr>
           <tr class="ours-row">
             <td>Ours + TTT3R</td>
-            <td>25</td>
+            <td><strong>25</strong></td>
             <td class="better">7774</td>
             <td class="better">644M</td>
           </tr>
@@ -422,7 +404,7 @@
           </tr>
           <tr class="ours-row">
             <td>Ours + TTSA3R</td>
-            <td>25</td>
+            <td><strong>25</strong></td>
             <td class="better">8208</td>
             <td class="better">644M</td>
           </tr>
@@ -432,6 +414,25 @@
         Efficiency comparison of runtime (fps) and GPU memory usage (MiB). <span style="color: #27ae60; font-weight: 600;">Green</span> indicates that our model matches or outperforms its corresponding base model.
       </p>
     </div>
+
+  </div>
+</section>
+<!-- /RESULTS -->
+
+
+<!-- ==================== BIBTEX ==================== -->
+<!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{mem3r2026,
+  author    = {Author 1 and Author 2 and Author 3},
+  title     = {Mem3R},
+  journal   = {arXiv preprint},
+  year      = {2026},
+}</code></pre>
+  </div>
+</section> -->
+<!-- /BIBTEX -->
 
 <!-- ==================== ACKNOWLEDGEMENTS ==================== -->
 <section class="section">
@@ -464,7 +465,7 @@
 </footer>
 <!-- /FOOTER -->
 
-<script src="static/js/index.js"></script>
+<script src="static/js/index.js?v=2"></script>
 <script type="importmap">
 {
   "imports": {
