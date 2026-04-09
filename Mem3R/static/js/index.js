@@ -20,7 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const wildScenes = [
     { src: 'static/videos/stanford_arch.mp4',        label: '' },
-    { src: 'static/videos/stanford_loop_close.mp4',  label: 'Loop Closure' },
+    { src: 'static/videos/stanford_loop.mp4',  label: 'Loop Closure' },
+    { src: 'static/videos/sf_chairs.mp4',  label: '' },
     { src: 'static/videos/hk_demo1.mp4',            label: '' },
   ];
   let wildIdx = 0;
