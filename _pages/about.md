@@ -48,7 +48,7 @@ Changkun Liu, Jiezhi Yang, Zeman Li, Yuan Deng, Jiancong Guo, Luca Ballan
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR
-  2026</div><video width="80%" autoplay loop muted playsinline><source src='../research/sat3dgen/satdemo.mp4' type='video/mp4'></video></div></div>
+  2026</div><video width="100%" autoplay loop muted playsinline><source src='../research/sat3dgen/satdemo.mp4' type='video/mp4'></video></div></div>
 <div class='paper-box-text' markdown="1">
 [Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image](https://openreview.net/pdf?id=E7JzkZCofa)
 Ming Qian, Zimin Xia, **Changkun Liu**, Shuailei Ma, Wen Wang, Zeran Ke, Bin Tan, Hang Zhang, Gui-Song Xia. (**ICLR 2026**)
