@@ -42,7 +42,7 @@ redirect_from:
 Changkun Liu, Jiezhi Yang, Zeman Li, Yuan Deng, Jiancong Guo, Luca Ballan
 . 
 
-[**[Code]**](https://github.com/lck666666/Mem3R)![GitHub Stars](https://img.shields.io/github/stars/lck666666/Mem3R?style=social) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**[Project]**](https://lck666666.github.io/Mem3R/)  [**[Code]**](https://github.com/lck666666/Mem3R)![GitHub Stars](https://img.shields.io/github/stars/lck666666/Mem3R?style=social) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - We propose Mem3R, an RNN-based model for streaming 3D reconstruction.
 </div>
 </div>
