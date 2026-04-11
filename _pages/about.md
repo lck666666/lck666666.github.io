@@ -33,6 +33,33 @@ redirect_from:
 
 # 📝 Publications and Preprints
 \* equal contribution
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">
+  arxiv </div><img src='../research/mem3r/stanford_arch.mp4
+  ' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Mem3R: Streaming 3D Reconstruction with Hybrid Memory via Test-Time Training](https://arxiv.org/pdf/2604.07279)
+Changkun Liu, Jiezhi Yang, Zeman Li, Yuan Deng, Jiancong Guo, Luca Ballan
+. 
+
+[**[Code]**](https://github.com/lck666666/Mem3R)![GitHub Stars](https://img.shields.io/github/stars/lck666666/Mem3R?style=social) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- We propose Mem3R, an RNN-based model for streaming 3D reconstruction.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR
+  2025</div><img src='../research/sat3dgen/satdemo.mp4
+  ' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image](https://openreview.net/pdf?id=E7JzkZCofa)
+Ming Qian, Zimin Xia, **Changkun Liu**, Shuailei Ma, Wen Wang, Zeran Ke, Bin Tan, Hang Zhang, Gui-Song Xia. (**ICLR 2026**)
+
+[**[Code]**](https://github.com/qianmingduowan/Sat3DGen)![GitHub Stars](https://img.shields.io/github/stars/qianmingduowan/Sat3DGen?style=social) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- We propose Sat3DGen, a geometry-first approach for generating street-level 3D scenes from a single satellite image. It significantly improves both 3D geometry and visual quality.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS
   2025</div><img src='../research/PLANA3R/camera_ready2.gif
   ' alt="sym" width="100%"></div></div>
