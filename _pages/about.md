@@ -38,8 +38,8 @@ redirect_from:
   arxiv </div><video width="100%" autoplay loop muted playsinline><source src='../research/mem3r/stanford_arch.mp4' type='video/mp4'></video></div></div>
 <div class='paper-box-text' markdown="1">
 [Mem3R: Streaming 3D Reconstruction with Hybrid Memory via Test-Time Training](https://arxiv.org/pdf/2604.07279)
-Changkun Liu, Jiezhi Yang, Zeman Li, Yuan Deng, Jiancong Guo, Luca Ballan
-. 
+
+Changkun Liu, Jiezhi Yang, Zeman Li, Yuan Deng, Jiancong Guo, Luca Ballan. 
 
 [**[Project]**](https://lck666666.github.io/Mem3R/)  [**[Code]**](https://github.com/lck666666/Mem3R)![GitHub Stars](https://img.shields.io/github/stars/lck666666/Mem3R?style=social) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - We propose Mem3R, an RNN-based model for streaming 3D reconstruction.
@@ -51,6 +51,7 @@ Changkun Liu, Jiezhi Yang, Zeman Li, Yuan Deng, Jiancong Guo, Luca Ballan
   2026</div><video width="100%" autoplay loop muted playsinline><source src='../research/sat3dgen/satdemo.mp4' type='video/mp4'></video></div></div>
 <div class='paper-box-text' markdown="1">
 [Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image](https://openreview.net/pdf?id=E7JzkZCofa)
+
 Ming Qian, Zimin Xia, **Changkun Liu**, Shuailei Ma, Wen Wang, Zeran Ke, Bin Tan, Hang Zhang, Gui-Song Xia. (**ICLR 2026**)
 
 [**[Code]**](https://github.com/qianmingduowan/Sat3DGen)![GitHub Stars](https://img.shields.io/github/stars/qianmingduowan/Sat3DGen?style=social) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
