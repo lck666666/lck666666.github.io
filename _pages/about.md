@@ -35,7 +35,7 @@ redirect_from:
 \* equal contribution
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">
-  arxiv </div><video width="100%" autoplay loop muted playsinline><source src='../research/mem3r/stanford_arch.mp4' type='video/mp4'></video></div></div>
+  arxiv </div><video width="100%" autoplay loop muted playsinline><source src='../research/mem3r/stanford_arch_fixed.mp4' type='video/mp4'></video></div></div>
 <div class='paper-box-text' markdown="1">
 [Mem3R: Streaming 3D Reconstruction with Hybrid Memory via Test-Time Training](https://arxiv.org/pdf/2604.07279)
 
