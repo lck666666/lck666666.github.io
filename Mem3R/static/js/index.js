@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const dots      = document.querySelectorAll('.wild-dot');
 
   const wildScenes = [
-    { src: 'static/videos/stanford_arch.mp4',        label: '' },
+    { src: 'static/videos/stanford_arch_fixed.mp4',        label: '' },
     { src: 'static/videos/stanford_loop.mp4',  label: 'Loop Closure' },
     { src: 'static/videos/sf_chairs.mp4',  label: '' },
     { src: 'static/videos/hk_demo1.mp4',            label: '' },
