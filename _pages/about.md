@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
- I am currently a student researcher at [Google](https://blog.google/products/android/android-xr/) and a PhD candidate in Computer Science and Engineering at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), supervised by Prof. [Tristan Braud](https://braudt.people.ust.hk/index.html). I previously worked as a research intern at [Ant Research](https://www.antresearch.com/LaboratoryDetails/Intelligent_Interaction_Lab-detail), working with Dr. [Nan Xue](https://xuenan.net/) and Dr. [Bin Tan](https://icetttb.github.io/). I was fortunate to visit the [Active Vision Laboratory](https://www.robots.ox.ac.uk/~lav/), [University of Oxford](https://www.ox.ac.uk/) advised by Prof. [Victor Prisacariu](https://www.robots.ox.ac.uk/~victor/). I received my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). Research Focus: Visual Localization, 3D Reconstruction, and AR/VR.
+ I received Ph.D. degree in Computer Science and Engineering at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), supervised by Prof. [Tristan Braud](https://braudt.people.ust.hk/index.html). I previously worked as a research intern at [Google](https://blog.google/products-and-platforms/platforms/android/android-xr/) and [Ant Research](https://www.antresearch.com/LaboratoryDetails/Intelligent_Interaction_Lab-detail). I was fortunate to visit the [Active Vision Laboratory](https://www.robots.ox.ac.uk/~lav/), [University of Oxford](https://www.ox.ac.uk/) advised by Prof. [Victor Prisacariu](https://www.robots.ox.ac.uk/~victor/). I received my bachelor's degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). Research Focus: Visual Localization, 3D Reconstruction, and AR/VR.
 
 
 # 🔥 News
@@ -25,7 +25,7 @@ redirect_from:
 - *2026.01*: &nbsp;🎉🎉 One paper is accepted to International Conference on Learning Representations (ICLR) 2026. Thanks to all coauthors!
 - *2025.10*: &nbsp;🎉🎉 [OpenNavMap](https://openreview.net/pdf?id=zmTTpkbrvv) received the ⭐️Best Paper Award⭐️ at the IROS 2025 Workshop: Open World Navigation in Human-centric Environments! Thanks to all coauthors!
 - *2025.09*: &nbsp;🎉🎉 One paper is accepted to Conference on Neural Information Processing Systems (NeurIPS) 2025. Thanks to all coauthors!
-- *2025.06*: &nbsp;🎙️🎙️ Invited talk: _Camera Relocalization and 3D Reconstruction_ at [Android XR, Google](https://blog.google/products/android/android-xr/) (online)
+- *2025.06*: &nbsp;🎙️🎙️ Invited talk: _Camera Relocalization and 3D Reconstruction_ at [Android XR, Google](https://blog.google/products/android/android-xr/) (online).
 - *2025.01*: &nbsp;🎉🎉 Two papers are accepted to International Conference on Robotics and Automation (ICRA) 2025. Thanks to all coauthors!
 - *2025.01*: &nbsp;🎉🎉 One paper is accepted to International Conference on Learning Representations (ICLR) 2025. Thanks to all coauthors!
 - *2024.04*: &nbsp;🎉🎉 Start visiting in [the Active Vision Laboratory](https://www.robots.ox.ac.uk/~lav/), [University of Oxford](https://www.ox.ac.uk/)! Thanks [Shuai Chen](https://chenusc11.github.io/) for showing me around the University and Lab!
@@ -141,12 +141,12 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 
 
 # 📖 Educations
-- *2021.09 - now*, Ph.D. in Computer Science and Engineering, The Hong Kong University of Science and Technology.
-- *2017.09 - 2021.06*, Bachelor of Engineering in Electronic Science and Technology, Shanghai Jiao Tong University. 
+- *2021 - 2026*, Ph.D. in Computer Science and Engineering, The Hong Kong University of Science and Technology.
+- *2017 - 2021*, Bachelor of Engineering in Electronic Science and Technology, Shanghai Jiao Tong University. 
 
 
 # 💻 Experience
-- *2026.01 - now*, Student Researcher, Google, San Jose, CA, US.
+- *2026.01 - 2026.04*, Student Researcher, Google, San Jose, CA, US.
 - *2025.01 - 2025.06*, Research Intern, Ant Research, Ant Group, Hangzhou, China.
 - *2024.04 - 2024.08*, Visiting Research Student at the University of Oxford, Oxford, UK.
 - *2020.06 - 2021.05*, Intel Asia-Pacific R&D Ltd., Shanghai, China.
