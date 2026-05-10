@@ -55,7 +55,7 @@ redirect_from:
 
 Ming Qian, Zimin Xia, **Changkun Liu**, Shuailei Ma, Wen Wang, Zeran Ke, Bin Tan, Hang Zhang, Gui-Song Xia. (**ICLR 2026**)
 
-**[Project]**](https://qianmingduowan.github.io/Sat3DGen_project_page/)[**[Code]**](https://github.com/qianmingduowan/Sat3DGen)![GitHub Stars](https://img.shields.io/github/stars/qianmingduowan/Sat3DGen?style=social) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**[Project]**](https://qianmingduowan.github.io/Sat3DGen_project_page/)[**[Code]**](https://github.com/qianmingduowan/Sat3DGen)![GitHub Stars](https://img.shields.io/github/stars/qianmingduowan/Sat3DGen?style=social) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - We propose Sat3DGen, a geometry-first approach for generating street-level 3D scenes from a single satellite image. It significantly improves both 3D geometry and visual quality.
 </div>
 </div>
