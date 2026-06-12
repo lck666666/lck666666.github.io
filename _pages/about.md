@@ -161,7 +161,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 - *2018, 2019* Class C Scholarship of SJTU
 
 # Academic Service
-- Reviewer: ICLR, CVPR, ECCV, IROS, ICRA, RA-L, TVCG
+- Reviewer: ICLR, NeurIPS, CVPR, ECCV, IROS, ICRA, RA-L, TVCG
 
 <html lang="zh">
 <head>
@@ -181,7 +181,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 <body>
 
     <div class="map-container">
-        <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=dfUoSc6uP1vWgs2fZpQ0rXTSEA-jke2-e2F1P09mahk&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+        <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=cHMXAy9vCSMBfvq_2BAJ3qTMgQV7nq87G_hPNmoke5c&cl=ffffff&w=a"></script>
     </div>
 
 </body>
