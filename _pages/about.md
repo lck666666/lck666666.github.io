@@ -36,7 +36,7 @@ redirect_from:
 # 📝 Publications and Preprints
 \* equal contribution
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TRO 2026</div><img src='../research/litevloc/2024_litevloc.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TRO 2026</div><img src='../research/opennavmap/tro_teaser2.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [OpenNavMap: Structure-Free Topometric Mapping via
 Large-Scale Collaborative Localization](https://arxiv.org/abs/2601.12291)
