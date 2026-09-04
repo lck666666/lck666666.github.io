@@ -41,7 +41,7 @@ redirect_from:
 [OpenNavMap: Structure-Free Topometric Mapping via
 Large-Scale Collaborative Localization](https://arxiv.org/abs/2601.12291)
 
-Jianhao Jiao, **Changkun Liu**,  Jingwen Yu, Boyi Liu, Qianyi Zhang,Yue Wang, Dimitrios Kanoulas. (**TRO 2026**)
+Jianhao Jiao, **Changkun Liu**,  Jingwen Yu, Boyi Liu, Qianyi Zhang,Yue Wang, Dimitrios Kanoulas. (**TRO 2026 &IROS 2025 Workshop Best Paper**)
 
 [**[Project]**](https://rpl-cs-ucl.github.io/OpenNavMap_page/)  [**[Code]**](https://github.com/RPL-CS-UCL/OpenNavMap)![GitHub Stars](https://img.shields.io/github/stars/RPL-CS-UCL/OpenNavMap?style=social)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - OpenNavMap is a lightweight, structure-free topometric mapping system that enables large-scale collaborative localization across multiple sessions without requiring pre-built 3D models. It builds, aligns, merges, and maintains multi-session topometric maps for image-goal navigation.
