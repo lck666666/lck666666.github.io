@@ -21,6 +21,7 @@ redirect_from:
 
 
 # 🔥 News
+- *2026.09*: &nbsp;🎉🎉 [OpenNavMap](https://openreview.net/pdf?id=zmTTpkbrvv) is accepted to TRO (IEEE Transactions on Robotics)! Thanks to all coauthors!
 - *2026.04*: &nbsp;🎙️🎙️ Invited talk at SUSTech, hosted by Prof. [Hong Zhang](https://scholar.google.com/citations?user=J7UkpAIAAAAJ&hl=en) (IEEE Fellow, Fellow of the Canadian Academy of Engineering).
 - *2026.01*: &nbsp;🎉🎉 One paper is accepted to International Conference on Learning Representations (ICLR) 2026. Thanks to all coauthors!
 - *2025.10*: &nbsp;🎉🎉 [OpenNavMap](https://openreview.net/pdf?id=zmTTpkbrvv) received the ⭐️Best Paper Award⭐️ at the IROS 2025 Workshop: Open World Navigation in Human-centric Environments! Thanks to all coauthors!
