@@ -21,7 +21,7 @@ redirect_from:
 
 
 # 🔥 News
-- *2026.09*: &nbsp;🎉🎉 One paper ([OpenNavMap](https://openreview.net/pdf?id=zmTTpkbrvv)) is accepted to IEEE Transactions on Robotics (TRO) 2026. Thanks to all coauthors!
+- *2026.09*: &nbsp;🎉🎉 One paper ([OpenNavMap](https://openreview.net/pdf?id=zmTTpkbrvv)) is accepted to IEEE Transactions on Robotics (T-RO) 2026. Thanks to all coauthors!
 - *2026.04*: &nbsp;🎙️🎙️ Invited talk at SUSTech, hosted by Prof. [Hong Zhang](https://scholar.google.com/citations?user=J7UkpAIAAAAJ&hl=en) (IEEE Fellow, Fellow of the Canadian Academy of Engineering).
 - *2026.01*: &nbsp;🎉🎉 One paper is accepted to International Conference on Learning Representations (ICLR) 2026. Thanks to all coauthors!
 - *2025.10*: &nbsp;🎉🎉 [OpenNavMap](https://openreview.net/pdf?id=zmTTpkbrvv) received the ⭐️Best Paper Award⭐️ at the IROS 2025 Workshop: Open World Navigation in Human-centric Environments! Thanks to all coauthors!
@@ -36,12 +36,12 @@ redirect_from:
 # 📝 Publications and Preprints
 \* equal contribution
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TRO 2026</div><img src='../research/opennavmap/tro_teaser2.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-RO 2026</div><img src='../research/opennavmap/tro_teaser2.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [OpenNavMap: Structure-Free Topometric Mapping via
 Large-Scale Collaborative Localization](https://arxiv.org/abs/2601.12291)
 
-Jianhao Jiao, **Changkun Liu**,  Jingwen Yu, Boyi Liu, Qianyi Zhang, Yue Wang, Dimitrios Kanoulas. (**TRO 2026, IROS 2025 Workshop Best Paper**)
+Jianhao Jiao, **Changkun Liu**,  Jingwen Yu, Boyi Liu, Qianyi Zhang, Yue Wang, Dimitrios Kanoulas. (**T-RO 2026, IROS 2025 Workshop Best Paper**)
 
 [**[Project]**](https://rpl-cs-ucl.github.io/OpenNavMap_page/)  [**[Code]**](https://github.com/RPL-CS-UCL/OpenNavMap)![GitHub Stars](https://img.shields.io/github/stars/RPL-CS-UCL/OpenNavMap?style=social)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - OpenNavMap is a lightweight, structure-free topometric mapping system that enables large-scale collaborative localization across multiple sessions without requiring pre-built 3D models. It builds, aligns, merges, and maintains multi-session topometric maps for image-goal navigation.
