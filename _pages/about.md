@@ -21,6 +21,7 @@ redirect_from:
 
 
 # 🔥 News
+- *2026.10*: &nbsp;🎉🎉 One paper is accepted to The IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2027. Thanks to all coauthors!
 - *2026.09*: &nbsp;🎉🎉 One paper ([OpenNavMap](https://openreview.net/pdf?id=zmTTpkbrvv)) is accepted to IEEE Transactions on Robotics (T-RO) 2026. Thanks to all coauthors!
 - *2026.04*: &nbsp;🎙️🎙️ Invited talk at SUSTech, hosted by Prof. [Hong Zhang](https://scholar.google.com/citations?user=J7UkpAIAAAAJ&hl=en) (IEEE Fellow, Fellow of the Canadian Academy of Engineering).
 - *2026.01*: &nbsp;🎉🎉 One paper is accepted to International Conference on Learning Representations (ICLR) 2026. Thanks to all coauthors!
@@ -36,6 +37,18 @@ redirect_from:
 # 📝 Publications and Preprints
 \* equal contribution
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">
+  WACV 2027 </div><video width="100%" autoplay loop muted playsinline><source src='../research/mem3r/stanford_arch_fixed.mp4' type='video/mp4'></video></div></div>
+<div class='paper-box-text' markdown="1">
+[Mem3R: Streaming 3D Reconstruction with Hybrid Memory](https://arxiv.org/pdf/2604.07279)
+
+**Changkun Liu\***, Jiezhi Yang\*, Zeman Li, Yuan Deng, Jiancong Guo, Binbin Xu, Luca Ballan. 
+
+[**[Project]**](https://lck666666.github.io/Mem3R/)  [**[Code]**](https://github.com/lck666666/Mem3R)![GitHub Stars](https://img.shields.io/github/stars/lck666666/Mem3R?style=social) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- We propose Mem3R, an RNN-based model for streaming 3D reconstruction.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-RO 2026</div><img src='../research/opennavmap/tro_teaser2.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [OpenNavMap: Structure-Free Topometric Mapping via
@@ -45,18 +58,6 @@ Jianhao Jiao, **Changkun Liu**,  Jingwen Yu, Boyi Liu, Qianyi Zhang, Yue Wang, D
 
 [**[Project]**](https://rpl-cs-ucl.github.io/OpenNavMap_page/)  [**[Code]**](https://github.com/RPL-CS-UCL/OpenNavMap)![GitHub Stars](https://img.shields.io/github/stars/RPL-CS-UCL/OpenNavMap?style=social)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - OpenNavMap is a lightweight, structure-free topometric mapping system that enables large-scale collaborative localization across multiple sessions without requiring pre-built 3D models. It builds, aligns, merges, and maintains multi-session topometric maps for image-goal navigation.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">
-  arxiv </div><video width="100%" autoplay loop muted playsinline><source src='../research/mem3r/stanford_arch_fixed.mp4' type='video/mp4'></video></div></div>
-<div class='paper-box-text' markdown="1">
-[Mem3R: Streaming 3D Reconstruction with Hybrid Memory via Test-Time Training](https://arxiv.org/pdf/2604.07279)
-
-**Changkun Liu**, Jiezhi Yang, Zeman Li, Yuan Deng, Jiancong Guo, Luca Ballan. 
-
-[**[Project]**](https://lck666666.github.io/Mem3R/)  [**[Code]**](https://github.com/lck666666/Mem3R)![GitHub Stars](https://img.shields.io/github/stars/lck666666/Mem3R?style=social) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- We propose Mem3R, an RNN-based model for streaming 3D reconstruction.
 </div>
 </div>
 
