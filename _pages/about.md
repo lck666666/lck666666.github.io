@@ -21,7 +21,7 @@ redirect_from:
 
 
 # 🔥 News
-- *2026.10*: &nbsp;🎉🎉 One paper is accepted to The IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2027. Thanks to all coauthors!
+- *2026.10*: &nbsp;🎉🎉 One paper is accepted to the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2027. Thanks to all coauthors!
 - *2026.09*: &nbsp;🎉🎉 One paper ([OpenNavMap](https://openreview.net/pdf?id=zmTTpkbrvv)) is accepted to IEEE Transactions on Robotics (T-RO) 2026. Thanks to all coauthors!
 - *2026.04*: &nbsp;🎙️🎙️ Invited talk at SUSTech, hosted by Prof. [Hong Zhang](https://scholar.google.com/citations?user=J7UkpAIAAAAJ&hl=en) (IEEE Fellow, Fellow of the Canadian Academy of Engineering).
 - *2026.01*: &nbsp;🎉🎉 One paper is accepted to International Conference on Learning Representations (ICLR) 2026. Thanks to all coauthors!
@@ -31,7 +31,7 @@ redirect_from:
 - *2025.01*: &nbsp;🎉🎉 Two papers are accepted to International Conference on Robotics and Automation (ICRA) 2025. Thanks to all coauthors!
 - *2025.01*: &nbsp;🎉🎉 One paper is accepted to International Conference on Learning Representations (ICLR) 2025. Thanks to all coauthors!
 - *2024.04*: &nbsp;🎉🎉 Start visiting in [the Active Vision Laboratory](https://www.robots.ox.ac.uk/~lav/), [University of Oxford](https://www.ox.ac.uk/)! Thanks [Shuai Chen](https://chenusc11.github.io/) for showing me around the University and Lab!
-- *2024.02*: &nbsp;🎉🎉 One paper is accepted to Conference on Computer Vision and Pattern Recognition (CVPR) 2024. Thanks to all coauthors!
+- *2024.02*: &nbsp;🎉🎉 One paper is accepted to the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2024. Thanks to all coauthors!
 - *2024.01*: &nbsp;🎉🎉 One paper is accepted to  International Conference on Robotics and Automation (ICRA) 2024. Thanks to all coauthors!
 
 # 📝 Publications and Preprints
