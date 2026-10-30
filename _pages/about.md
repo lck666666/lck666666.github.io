@@ -42,7 +42,7 @@ redirect_from:
 <div class='paper-box-text' markdown="1">
 [Mem3R: Streaming 3D Reconstruction with Hybrid Memory](https://arxiv.org/pdf/2604.07279)
 
-**Changkun Liu\***, Jiezhi Yang\*, Zeman Li, Yuan Deng, Jiancong Guo, Binbin Xu, Luca Ballan. 
+**Changkun Liu\***, Jiezhi Yang\*, Zeman Li, Yuan Deng, Jiancong Guo, Binbin Xu, Luca Ballan. (**WACV 2027**)
 
 [**[Project]**](https://lck666666.github.io/Mem3R/)  [**[Code]**](https://github.com/lck666666/Mem3R)![GitHub Stars](https://img.shields.io/github/stars/lck666666/Mem3R?style=social) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - We propose Mem3R, an RNN-based model for streaming 3D reconstruction.
