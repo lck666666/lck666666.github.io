@@ -168,7 +168,7 @@ Huajian Huang\*, **Changkun Liu\***, Yipeng Zhu, Hui Cheng, Tristan Braud, and S
 
 # 🎖 Honors and Awards
 - *2024* Overseas Research Award in HKUST
-- *2021-now* Postgraduate Studentship in HKUST
+- *2021-2025* Postgraduate Studentship in HKUST
 - *2021* Outstanding Graduate of Shanghai Jiao Tong University (Top 20%)
 - *2020* Second-Class Scholarship Awarded by SCSK, Kabuskiki Kaisha in SJTU (Top 4%)
 - *2018, 2019, 2020* Academic Scholarship of SJTU
